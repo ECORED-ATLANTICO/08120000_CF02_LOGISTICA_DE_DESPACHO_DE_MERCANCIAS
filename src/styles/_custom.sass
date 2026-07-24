@@ -35,7 +35,7 @@
     background-position: 30% 50% !important
 
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important
+  color: $color-sistema-texto !important
 
 .banner-interno__titulo__icono i
   color: #c2e5f0
@@ -147,10 +147,10 @@ figcaption
       background-color: #8C8FEC
 
 .bg-color-c1
-  background-color: #FFF8EA
+  background-color: #FCF9EB
   &.cajon
     &::before
-      background-color: #FEBA30
+      background-color: #E0BF32
 
 .bg-color-c2
   background-color: #FFF6F9
@@ -197,12 +197,12 @@ figcaption
     padding-right: 3rem
 
 .bg-fondo-1
-  // background-image: url("../assets/curso/intro/bg01.png") !important
+  background-image: url("../assets/curso/tema1/img02.png") !important
   background-position: center
   background-size: cover
 
 .bg-fondo-2
-  // background-image: url("../assets/curso/tema1/img01.png") !important
+  background-image: url("../assets/curso/tema1/img24.png") !important
   background-position: center
   background-size: cover
   border-radius: 25px
@@ -210,12 +210,12 @@ figcaption
     border-radius: 15px
 
 .bg-fondo-3
-  // background-image: url("../assets/curso/tema1/bg02.png") !important
+  background-image: url("../assets/curso/tema1/img27.png") !important
   background-position: center
   background-size: 100% 100%
 
 .bg-fondo-4
-  // background-image: url("../assets/curso/tema2/img03.png") !important
+  background-image: url("../assets/curso/tema1/img13.png") !important
   background-position: center
   background-size: cover
 
@@ -374,14 +374,15 @@ figcaption
 
 // Tabs A
 .tabs-a__tab
-  background-color: #DADEF0 !important
+  background-color: #C1CCCA !important
   white-space: normal
   height: stretch
 .tabs-a.color-acento-botones .tabs-a__tab__selected
-  background-color: #FFD561 !important
+  background-color: #FE8849 !important
+  color: white
 .tabs-a__content-item
   display: flex
-  height: 100%
+  height: fit-content
 .tabs-a
   .row
     .mb-3
@@ -634,19 +635,26 @@ a, button, div
   @media screen and ( max-width: $bp-max-xs )
     height: 55px
 
+.bg-white
+  background-color: #ffffff
+
 // Background colors utilities (Keep used ones)
 .bg-color-1
-  background-color: #E9F8FC
+  background-color: #E5F0FC
 
 .bg-color-1-degrade
   // #E9F8FC y #E3F1FA lineal vertical
   background: linear-gradient(180deg, #E9F8FC 0%, #E3F1FA 100%)
 
 .bg-color-2
-  background-color: #F2FDEB
+  background-color: #EAECF0
 
 .bg-color-3
-  background-color: #EFFAFD
+  background-color: #DEDEDE
+
+.bg-color-3-degrade
+  // degradado lineal DEDEDE y #FFFFFF vertical
+  background: linear-gradient(180deg, #DEDEDE 0%, #FFFFFF 50%, #DEDEDE 100%) !important
 
 .bg-color-4
   color: #9EC9FF !important
@@ -658,13 +666,13 @@ a, button, div
       background-color: #C5A07A
 
 .bg-color-6
-  background-color: #FFE0D7
+  background-color: #E6EAE9
 
 .bg-color-7
-  background-color: #DFF5FB
+  background-color: #FDF7E4
 
 .bg-color-8
-  background-color: #E4FBD7
+  background-color: #F6F6F6
 
 .bg-color-31
   background-color: #DADEF0
@@ -725,19 +733,19 @@ a, button, div
   background-color: #C5CFF0
 
 .tarjeta.color-acento-botones--borde
-  background-color: #DFF5FB
+  background-color: #FFE6D9
   color: #000
-  border: solid 4px #DFF5FB !important
+  border: solid 4px #FFE6D9 !important
 
 .tabs-a.color-acento-botones .tabs-a__tab__selected:before
-  background-color: #FFD561 !important
+  background-color: #FE8849 !important
 
 .tabs-a.color-acento-botones .tabs-a__tab__selected:hover
-  background-color: #FFD561 !important
+  background-color: #FE8849 !important
 
 .tabs-a.color-acento-botones .tabs-a__tab:hover
-  background-color: #FFD561 !important
-  color: #000 !important
+  background-color: #FE8849 !important
+  color: #fff !important
 
   //////////////CUSTON SLYDER-A////////
 .slyder-a__bullets__item
@@ -746,7 +754,7 @@ a, button, div
 .slyder-a__bullets__item--active
   background-color: #72935E
 .slyder-a__btn--atrs, .slyder-a__btn--sigt
-  background-color: #FFD561
+  background-color: #FE8849
   opacity: 1 !important
 .slyder-a__bullets__item
   @media screen and ( max-width: $bp-max-xs )
@@ -975,9 +983,9 @@ a, button, div
 .lista-ul--separador li
   border-bottom: dashed 1px #B0C0D2 !important
 
-ul
-  .fa-brands:before, .fa-regular:before, .fa-solid:before, .fa:before, .fab:before, .far:before, .fas:before
-    color: #61CCEE
+// ul
+//   .fa-brands:before, .fa-regular:before, .fa-solid:before, .fa:before, .fab:before, .far:before, .fas:before
+//     color: #61CCEE
 
 .lista-ol--separador li:last-child, .lista-ul--separador li:last-child
   border-bottom: none !important
@@ -1041,10 +1049,10 @@ ul
   border: 4px solid #FFFFFF !important
 
 .slyder-f .slyder-f__btn
-  background-color: #FFD561
+  background-color: #FE8849
 
 .slyder-f .slyder-f__btn .fa-chevron-left, .slyder-f .slyder-f__btn .fa-chevron-right
-  color: $color-sistema-texto !important
+  color: #fff !important
 
 ///// slyder --------------------------------------
 .tarjeta--slyder
@@ -1103,13 +1111,16 @@ ul
 
     .cita-decorada__imagen-flotante-3
       position: absolute
-      transform: translateY(-65px) translateX(45px)
+      transform: translateY(-85px) translateX(45px)
       z-index: 3
-      max-width: 135px
+      max-width: 100px
       margin: 0 auto
-      @media (max-width: $bp-max-lg)
+      @media (max-width: $bp-max-xl)
         transform: translateY(-80px) translateX(8px)
         max-width: 145px
+      @media (max-width: $bp-max-lg)
+        transform: translateY(-80px) translateX(35px)
+        max-width: 100px
       @media screen and (max-width: $bp-max-md)
         transform: translateY(-0px) translateX(0px)
         position: relative
