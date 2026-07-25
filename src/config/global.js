@@ -2,7 +2,7 @@ export default {
   global: {
     Name: 'Verificación de registros y control de despachos',
     Description:
-      'El componente formativo Verificación de registros y control de despachos. aborda los procesos relacionados con la identificación de mercancías, el diligenciamiento de registros logísticos y la ejecución de operaciones de cargue, descargue y despacho, apoyados en el uso adecuado de equipos para la manipulación de productos. Asimismo, desarrolla los fundamentos necesarios para fortalecer la trazabilidad, el control operativo y la seguridad durante las actividades logísticas, contribuyendo a la eficiencia de la cadena de suministro y al cumplimiento de los procedimientos establecidos por las organizaciones.',
+      'El componente formativo Verificación de registros y control de despachos aborda los procesos relacionados con la identificación de mercancías, el diligenciamiento de registros logísticos y la ejecución de operaciones de cargue, descargue y despacho, apoyados en el uso adecuado de equipos para la manipulación de productos. Asimismo, desarrolla los fundamentos necesarios para fortalecer la trazabilidad, el control operativo y la seguridad durante las actividades logísticas, contribuyendo a la eficiencia de la cadena de suministro y al cumplimiento de los procedimientos establecidos por las organizaciones.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -207,7 +207,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/52430467_CF02_DU.zip',
+        download: 'downloads/08120000_CF02_DU.zip',
       },
       {
         icono: 'fas fa-download',
@@ -248,7 +248,7 @@ export default {
     {
       termino: 'Capacidad de carga',
       significado:
-        'Peso máximo que un equipo puede soportar y movilizar de manera segura durante su operation.',
+        'Peso máximo que un equipo puede soportar y movilizar de manera segura durante su operación.',
     },
     {
       termino: 'Cargue de mercancías',

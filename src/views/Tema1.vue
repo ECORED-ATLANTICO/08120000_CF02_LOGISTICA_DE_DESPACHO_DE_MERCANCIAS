@@ -64,7 +64,8 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Figura 1.
+          h5
+            b Figura 1.
           span Técnicas e interpretación de colores
         img.mb-2.d-lg-flex.d-none(data-aos="fade-up", src="@/assets/curso/tema1/img06.svg", alt="La figura presenta una infografía sobre técnicas para optimizar la lectura de códigos de barras en procesos logísticos. En el centro se observa una caja con una etiqueta de código de barras, acompañada por cinco recomendaciones: utilizar barras oscuras sobre fondos claros, mantener alto contraste entre barras y fondo, evitar colores metálicos o reflectivos, evitar combinaciones de colores que dificulten la lectura óptica y conservar una impresión uniforme y de buena calidad. En la parte inferior se destaca que estas prácticas favorecen una lectura óptica eficiente y reducen errores en los despachos.")
         img.mb-2.d-flex.d-lg-none(data-aos="fade-up", src="@/assets/curso/tema1/img07.svg", alt="La figura presenta una infografía sobre técnicas para optimizar la lectura de códigos de barras en procesos logísticos. En el centro se observa una caja con una etiqueta de código de barras, acompañada por cinco recomendaciones: utilizar barras oscuras sobre fondos claros, mantener alto contraste entre barras y fondo, evitar colores metálicos o reflectivos, evitar combinaciones de colores que dificulten la lectura óptica y conservar una impresión uniforme y de buena calidad. En la parte inferior se destaca que estas prácticas favorecen una lectura óptica eficiente y reducen errores en los despachos.")
@@ -75,7 +76,8 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Figura 2.
+          h5
+            b Figura 2.
           span Combinaciones de colores legibles para códigos de barras
         img.mb-2.d-lg-flex.d-none(data-aos="fade-up", src="@/assets/curso/tema1/img08.svg", alt="La figura muestra varios ejemplos de combinaciones de colores legibles para códigos de barras. Organiza dieciséis ejemplos de combinaciones entre el color del código y el fondo. Cada ejemplo muestra un código de barras con su respectiva combinación cromática, permitiendo comparar visualmente el contraste entre ambos colores para identificar opciones que favorecen la lectura óptica en procesos logísticos.")
         img.mb-2.d-flex.d-lg-none(data-aos="fade-up", src="@/assets/curso/tema1/img09.svg", alt="La figura muestra varios ejemplos de combinaciones de colores legibles para códigos de barras. Organiza dieciséis ejemplos de combinaciones entre el color del código y el fondo. Cada ejemplo muestra un código de barras con su respectiva combinación cromática, permitiendo comparar visualmente el contraste entre ambos colores para identificar opciones que favorecen la lectura óptica en procesos logísticos.")
@@ -95,14 +97,15 @@
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-12
           .titulo-sexto.color-acento-contenido.mb-4
-            h5 Figura 3.
+            h5
+              b Figura 3.
             span Composición del código de barras
-          img.mb-2.d-lg-flex.d-none(data-aos="fade-up", src="@/assets/curso/tema1/img10.svg", alt="La figura muestra muestra la estructura general de un código de barras y los elementos que permiten su correcta lectura e identificación. Además señala las zonas de inicio y fin, el conjunto de barras y espacios, la numeración visible, el dígito de control y el identificador del producto, explicando la función de cada componente dentro del proceso de codificación. Su propósito es facilitar la comprensión de cómo se organiza la información para identificar productos de manera única y precisa.")
-          img.mb-2.d-flex.d-lg-none(data-aos="fade-up", src="@/assets/curso/tema1/img11.svg", alt="La figura muestra muestra la estructura general de un código de barras y los elementos que permiten su correcta lectura e identificación. Además señala las zonas de inicio y fin, el conjunto de barras y espacios, la numeración visible, el dígito de control y el identificador del producto, explicando la función de cada componente dentro del proceso de codificación. Su propósito es facilitar la comprensión de cómo se organiza la información para identificar productos de manera única y precisa.")
+          img.mb-2.d-lg-flex.d-none(data-aos="fade-up", src="@/assets/curso/tema1/img10.svg", alt="La figura muestra la estructura general de un código de barras y los elementos que permiten su correcta lectura e identificación. Además, señala las zonas de inicio y fin, el conjunto de barras y espacios, la numeración visible, el dígito de control y el identificador del producto, explicando la función de cada componente dentro del proceso de codificación. Su propósito es facilitar la comprensión de cómo se organiza la información para identificar productos de manera única y precisa.")
+          img.mb-2.d-flex.d-lg-none(data-aos="fade-up", src="@/assets/curso/tema1/img11.svg", alt="La figura muestra la estructura general de un código de barras y los elementos que permiten su correcta lectura e identificación. Además, señala las zonas de inicio y fin, el conjunto de barras y espacios, la numeración visible, el dígito de control y el identificador del producto, explicando la función de cada componente dentro del proceso de codificación. Su propósito es facilitar la comprensión de cómo se organiza la información para identificar productos de manera única y precisa.")
           figcaption Nota. SENA, (2026).
 
 
-    p.mb-5 Cada uno de estos elementos cumple una función específica que garantiza la correcta identificación de la mercancía y evita errores durante la captura de la información.
+    p.mb-5 Cada uno de estos elementos cumple una función específica que garantiza la correcta identificación de la mercancía y evita errores durante la captura de la información. En Colombia, los códigos EAN-13 son administrados por GS1 Colombia y se utilizan para identificar productos en procesos de inventario, almacenamiento, facturación y control logístico.
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
@@ -116,7 +119,7 @@
                   h4.mb-2 Lectura sugerida:
                   p.mb-0 Se invita al aprendiz a investigar que es GS1Colombia y su importancia en lo relacionado con los códigos de barras.
                 .col-md-auto.text-center
-                  a.boton.color-acento-botones.texto-blanco(href="https://gs1co.org/sites/default/files/libreria-archivos/guia-url-imagen-verificar-la-identidad-de-un-producto-verified-by-gs1.pdf" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(href="https://gs1co.org/sobre-gs1/quienes-somos" target="_blank")
                     span Ver enlace
                     i.fas.fa-link
 

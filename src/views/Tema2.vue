@@ -39,7 +39,7 @@
                     h4.mb-2 Formatos de registros logísticos
                     p.mb-0 Lo invitamos a visitar el siguiente enlace en donde puede descargar un ejemplo de formato de recibo y registro de mercancía 
                   .col-md-auto.text-center
-                    a.boton.color-acento-botones.texto-blanco(href="https://www.freepik.es/icono/internet_5260363" target="_blank")
+                    a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/Anexos/Ejemplo_formato_recibo_registro_mercancia.pdf')" target="_blank")
                       span Ver enlace
                       i.fas.fa-link
 
@@ -65,7 +65,7 @@
                   h4.mb-2 Formatos de registros logísticos
                   p.mb-0 Lo invitamos a visitar el siguiente enlace en donde puede descargar un ejemplo de formato de recibo y registro de mercancía 
                 .col-md-auto.text-center
-                  a.boton.color-acento-botones.texto-blanco(href="https://www.freepik.es/icono/internet_5260363" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/Anexos/Ejemplo_formato_recibo_registro_mercancia.pdf')" target="_blank")
                     span Ver enlace
                     i.fas.fa-link
 
@@ -124,7 +124,8 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Figura 4.
+          h5
+            b Figura 4.
           span Evidencia de recibo
         img.mb-2.d-lg-flex.d-none(data-aos="fade-up", src="@/assets/curso/tema2/img03.png", alt="La figura muestra un recibo de mercancía con los campos necesarios para el registro de la información.")
         img.mb-2.d-flex.d-lg-none(data-aos="fade-up", src="@/assets/curso/tema2/img04.png", alt="La figura muestra un recibo de mercancía con los campos necesarios para el registro de la información.")
@@ -166,18 +167,30 @@
                 tr
                   th Recomendación
                   th Definición
-                  th Ejemplo
+                  th Ejemplo práctico
               tbody
                 tr
                   td Registrar la información en tiempo real
-                  td Consiste en diligenciar los formatos en el momento exacto en que ocurren los eventos o actividades logísticas, evitando demoras o pérdidas de información.
-                  td El recibo de mercancía se diligencia inmediatamente al descargar los productos en el muelle.
+                  td Permite diligenciar el registro inmediatamente después de ejecutar la operación logística, manteniendo la información actualizada y reduciendo el riesgo de omisiones o inconsistencias.
+                  td Registrar la cantidad de cajas recibidas tan pronto finaliza la descarga del vehículo.
                 tr
-                  td Verificar la exactitud de los datos
-                  td Implica comprobar que los valores, códigos, cantidades y descripciones coincidan con la realidad de la operación y con los documentos de soporte.
-                  td El operario cuenta las cajas recibidas y verifica que coincidan con la cantidad indicada en la remisión.
+                  td Verificar los datos antes del registro
+                  td Implica confirmar cantidades, referencias, documentos y demás información antes de diligenciar el formato, garantizando que los datos registrados correspondan a la operación realizada.
+                  td Comparar la factura y la orden de compra con la mercancía antes de registrar su ingreso.
                 tr
                   td Completar todos los campos requeridos
+                  td Favorece el diligenciamiento total del formato, incorporando toda la información solicitada para asegurar registros completos, consistentes y útiles para el control logístico.
+                  td Registrar la fecha, el proveedor, el responsable, las cantidades y las observaciones sin dejar espacios vacíos.
+                tr
+                  td Utilizar información legible y precisa
+                  td Requiere registrar los datos con escritura clara o mediante herramientas digitales, facilitando su lectura, interpretación y consulta durante las diferentes operaciones logísticas.
+                  td Escribir los códigos de los productos de forma clara para evitar errores en el inventario.
+                tr
+                  td Evitar tachones y enmendaduras
+                  td Contribuye a preservar la confiabilidad del documento mediante registros limpios y ordenados. Cuando se requieran correcciones, estas deben realizarse conforme al procedimiento establecido por la organización.
+                  td Corregir un dato utilizando el procedimiento institucional, sin alterar la información original.
+                tr
+                  td Emplear códigos y formatos normalizados
                   td Promueve el uso de formatos y sistemas de codificación definidos por la organización, facilitando la estandarización de los registros y su integración con los sistemas de información.
                   td Utilizar el código interno del producto y el formato oficial de recepción de mercancías.
                 tr
@@ -205,7 +218,7 @@
     separador
 
     #t_2_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 2.5 Importancia de los registros logísticos
+      h2 2.5 Guía de ruta
                 
     .bloque-texto-g.bloque-texto-g--inverso.bg-color-1.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
