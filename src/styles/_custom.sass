@@ -66,18 +66,18 @@ figcaption
     .crd_hover_txt--body
       transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
       transform: translateY(0)
-      background-color: #FFE9D9
+      background-color: #FE8849
       // opacity: 0.8
       h4
         color: $color-sistema-texto
 
   .crd_hover_txt--body
     position: absolute
-    padding: 1.5rem
+    padding: 1.3rem
     bottom: 0
     transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
     transform: translateY(calc( 100% - 3.85rem ))
-    background-color: #FFE9D9
+    background-color: #FFCEB4
     // text-align: center
 
   @media (min-width:1200px) and (max-width:1400px)
@@ -220,9 +220,10 @@ figcaption
   background-size: cover
 
 .bg-fondo-5
-  // background-image: url("../assets/curso/tema1/bg03.png") !important
+  background-image: url("../assets/curso/tema3/img05.png") !important
   background-position: center
-  background-size: cover
+  background-size: 100% 100%
+  border-radius: 15px
 
 .bg-fondo-6
   // background-image: url("../assets/curso/tema1/bg04.png") !important
@@ -448,35 +449,34 @@ figcaption
 
 // Tabs C
 .tabs-c__tab
-  border-top: 4px solid #EBF4FF
-  background-color: #EBF4FF !important
-  border-bottom: 4px solid #EBF4FF
+  border-top: none !important
+  border-bottom: 4px solid transparent !important
+  background-color: #FFFFFF !important
 .tabs-c__tab:after
-  background-color: #AFAFAF !important
-  width: 3px !important
-  height: 100% !important
+  background-color: #E8E8E8 !important
+  width: 1px !important
+  height: 70% !important
 .tabs-c__tab--active
-  border-bottom-color: #FFF4E5 !important
+  border-bottom: 4px solid #FE8849 !important
+  background-color: #FFFFFF !important
+  span
+    font-weight: bold
+    color: #111E61 !important
 .tabs-c__tab--active:before
-  border-bottom-color: #FFF4E5 !important
-.tabs-c.color-acento-botones .tabs-c__tab--active
-  border-top-color: #941FF0 !important
-  border-bottom-color: #FFF4E5 !important
-.tabs-c.color-acento-botones .tabs-c__tab--active:before
-  border-bottom-color: #FFF4E5 !important
-  border-top-color: #FFF4E5 !important
+  border-top-color: #FE8849 !important
 .tabs-c.color-primario .tabs-c__tab--active
-  border-top-color: red !important
+  border-bottom-color: #FE8849 !important
 .tabs-c.color-primario .tabs-c__tab--active:before
-  border-top-color: red !important
+  border-top-color: #FE8849 !important
+.tabs-c.color-acento-botones .tabs-c__tab--active
+  border-bottom-color: #FE8849 !important
+.tabs-c.color-acento-botones .tabs-c__tab--active:before
+  border-top-color: #FE8849 !important
 .tabs-c__content-item
-  background-color: #FFF4E5
-  // background-image: url("../assets/curso/bg3.png") !important
+  background-color: #F8F8F8 !important
   background-size: cover
 .tabs-c__header
   margin-bottom: 0
-.tabs-c__tab--active
-  background-color: #FFF4E5 !important
 
 // // Acordion
 // .acordion
@@ -516,12 +516,12 @@ figcaption
 
 /////////////ACORDION/////////////
 .acordion__accion__btn--a
-  background-color: #FFD561 !important
+  background-color: #FE8849 !important
 .acordion__activo
   // background-image: url("../assets/curso/tema2/img19.png") !important
   background-size: cover
   background-position: center
-  background-color: #E4FBD7 !important
+  background-color: #FEECE6 !important
   &.azul
     background-color: #DFF5FB !important
 
@@ -675,7 +675,7 @@ a, button, div
   background-color: #F6F6F6
 
 .bg-color-31
-  background-color: #DADEF0
+  background-color: #FFE7DB
 
 .bg-color-17
   color: #17C1C1 !important
@@ -683,7 +683,7 @@ a, button, div
   background-color: #455BB5 !important
 
 .bg-color-19
-  background-color: #EAECEE
+  background-color: #F9F2D6
 
 .bg-color-20
   color: #6F88DA !important
@@ -695,7 +695,7 @@ a, button, div
   background-color: #E3F1FA !important
 
 .bg-color-22
-  background-color: #E3F1FA !important
+  background-color: #D4D9E0
 
 .bg-color-27
   background-color: #C5A07A
@@ -749,10 +749,10 @@ a, button, div
 
   //////////////CUSTON SLYDER-A////////
 .slyder-a__bullets__item
-  background-color: #72935E
-  border: #72935E
+  background-color: #E0BF32
+  border: #E0BF32
 .slyder-a__bullets__item--active
-  background-color: #72935E
+  background-color: #E0BF32
 .slyder-a__btn--atrs, .slyder-a__btn--sigt
   background-color: #FE8849
   opacity: 1 !important
@@ -799,20 +799,20 @@ a, button, div
   align-items: center
 
 .titulo-con-imagen__fondo
-  background-color: #E3F1FA
-  border-radius: 20px 20px 20px 20px
+  background-color: #283F65
+  border-radius: 5px 5px 5px 5px
   padding: 16px 25px 16px 20px
   display: inline-flex
   align-items: center
-  margin-left: 30px
+  margin-left: -11px
 
 .titulo-con-imagen__imagen
   position: absolute
-  left: -12px
+  left: 4px
   width: 100px
 .titulo-con-imagen__texto
   margin: 0
-  padding-left: 45px
+  padding-left: 95px
   position: relative
   &::before
     content: ""
@@ -822,7 +822,7 @@ a, button, div
     transform: translateY(50%)
     width: 30px
     height: 30px
-    background-image: url("../assets/curso/icono-subtitulo.png")
+    // background-image: url("../assets/curso/icono-subtitulo.png")
 
 .img-topright
   padding: 4.5rem 2rem 3rem !important
@@ -860,7 +860,7 @@ a, button, div
   background-color: #EFEFFC !important
   border: 1px solid #EFEFFC !important
 .acordion__accion__btn--a i, .acordion__accion__btn--b i
-  color: #12263F
+  color: #FFF
 
 .lista-ul
   li
@@ -883,6 +883,12 @@ a, button, div
 
 .lista-ul li i:first-child, .lista-ul--separador li i:first-child, .lista-ul--color li i:first-child
   margin-top: 0px
+
+.icon-check-custom,
+.lista-ul--color li i.fa-circle-check
+  color: #E0BF32 !important
+  background-color: #12263F !important
+  border-radius: 50%
 
 //// Tarjetas --------------------------------------
 .crd

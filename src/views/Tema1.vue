@@ -39,7 +39,9 @@
                 .col-12.col-lg-3.mb-3.mb-lg-0
                   img(src="@/assets/curso/tema1/img04.svg", class="img-fluid cita-decorada__imagen-flotante-3")
                 .col-12.col-lg-9.cita-decorada__texto.mb-4.mb-lg-0.p-4
-                  p.mb-0 <b>Ejemplo:</b> al recibir un producto en una bodega, el operario escanea el código de barras para registrar automáticamente su ingreso al sistema de inventarios.
+                  .d-flex.align-items-start
+                    i.fas.fa-circle-check.icon-check-custom.me-2.mt-1.txt-dark
+                    p.mb-0 <b>Ejemplo:</b> al recibir un producto en una bodega, el operario escanea el código de barras para registrar automáticamente su ingreso al sistema de inventarios.
 
 
 
@@ -141,7 +143,8 @@
                 .col-8
                   img(src='@/assets/curso/tema1/img15.svg' alt='', style="width: 170px; height: 170px; ").mx-auto
               
-              h4.text-center EAN-13
+              .bg-color-c1.p-2.mb-3
+                h4.text-center.mb-0 EAN-13
               p.text-center Código de barras de trece dígitos utilizado para identificar productos de consumo. Facilita la comercialización, el control de inventarios y la facturación. Es el estándar más empleado en supermercados, almacenes y comercios de Colombia.
 
             .tarjeta.bg-color-8.br-15.shadow-sm.p-4.h-100
@@ -149,7 +152,8 @@
                 .col-8
                   img(src='@/assets/curso/tema1/img16.svg' alt='', style="width: 170px; height: 170px; ").mx-auto
               
-              h4.text-center UPC
+              .bg-color-c1.p-2.mb-3
+                h4.text-center.mb-0 UPC
               p.text-center Código de doce dígitos diseñado para identificar productos comercializados principalmente en Norteamérica. Agiliza la gestión de ventas y el control de inventarios. Es ampliamente utilizado en supermercados y cadenas minoristas de Estados Unidos y Canadá.
 
             .tarjeta.bg-color-8.br-15.shadow-sm.p-4.h-100
@@ -157,7 +161,8 @@
                 .col-8
                   img(src='@/assets/curso/tema1/img17.svg' alt='', style="width: 170px; height: 170px; ").mx-auto
               
-              h4.text-center Code 39
+              .bg-color-c1.p-2.mb-3
+                h4.text-center.mb-0 Code 39
               p.text-center Código alfanumérico que permite representar letras, números y algunos caracteres especiales. Facilita la identificación de activos y documentos. Es común en procesos industriales, manufactura, defensa y control de inventarios.
 
             .tarjeta.bg-color-8.br-15.shadow-sm.p-4.h-100
@@ -165,7 +170,8 @@
                 .col-8
                   img(src='@/assets/curso/tema1/img18.svg' alt='', style="width: 170px; height: 170px; ").mx-auto
               
-              h4.text-center Code 128
+              .bg-color-c1.p-2.mb-3
+                h4.text-center.mb-0 Code 128
               p.text-center Código alfanumérico de alta densidad que almacena gran cantidad de información en poco espacio. Favorece la trazabilidad y el control logístico. Se utiliza ampliamente en transporte, almacenamiento, distribución y mensajería.
 
             .tarjeta.bg-color-8.br-15.shadow-sm.p-4.h-100
@@ -173,7 +179,8 @@
                 .col-8
                   img(src='@/assets/curso/tema1/img19.svg' alt='', style="width: 170px; height: 170px; ").mx-auto
               
-              h4.text-center ITF-14
+              .bg-color-c1.p-2.mb-3
+                h4.text-center.mb-0 ITF-14
               p.text-center Código diseñado para identificar unidades logísticas y empaques corrugados. Facilita el almacenamiento, transporte y despacho de mercancías. Es ampliamente utilizado en centros de distribución, bodegas y operaciones logísticas.
 
             .tarjeta.bg-color-8.br-15.shadow-sm.p-4.h-100
@@ -181,7 +188,8 @@
                 .col-8
                   img(src='@/assets/curso/tema1/img20.svg' alt='', style="width: 170px; height: 170px; ").mx-auto
               
-              h4.text-center Código QR
+              .bg-color-c1.p-2.mb-3
+                h4.text-center.mb-0 Código QR
               p.text-center Código bidimensional que almacena gran cantidad de información, como enlaces, documentos o datos de productos. Facilita el acceso rápido a la información y se utiliza en logística, comercio electrónico, trazabilidad y servicios digitales.
     
     p.mb-5 Cada tipo presenta características particulares relacionadas con la cantidad de información que puede almacenar y el sector donde es utilizado.
@@ -196,7 +204,9 @@
               .col-12.col-lg-3.mb-3.mb-lg-0
                 img(src="@/assets/curso/tema1/img04.svg", class="img-fluid cita-decorada__imagen-flotante-3")
               .col-12.col-lg-9.cita-decorada__texto.mb-4.mb-lg-0.p-4
-                p.mb-0 <b>Ejemplo:</b> composición de un código de barras tipo ITF-14, y la descripción de cada grupo de números.
+                .d-flex.align-items-start
+                  i.fas.fa-circle-check.icon-check-custom.me-2.mt-1.txt-dark
+                  p.mb-0 <b>Ejemplo:</b> composición de un código de barras tipo ITF-14, y la descripción de cada grupo de números.
 
 
     separador
@@ -253,13 +263,14 @@
               .col-12.col-lg-3.mb-3.mb-lg-0
                 img(src="@/assets/curso/tema1/img04.svg", class="img-fluid cita-decorada__imagen-flotante-3")
               .col-12.col-lg-9.cita-decorada__texto.mb-4.mb-lg-0.p-4
-                p.mb-0 <b>Ejemplo:</b> un operador puede registrar cientos de productos en pocos minutos utilizando un lector de código de barras.
+                .d-flex.align-items-start
+                  i.fas.fa-circle-check.icon-check-custom.me-2.mt-1.txt-dark
+                  p.mb-0 <b>Ejemplo:</b> un operador puede registrar cientos de productos en pocos minutos utilizando un lector de código de barras.
 
     separador
     
     #t_1_6.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 1.6 Parámetros de ubicación
-
+      h2 1.6 Recomendaciones para su aplicación
 
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-4.col-md-12.order-1.order-lg-1.mb-4.mb-lg-0
@@ -305,7 +316,9 @@
                 .col-12.col-lg-3.col-xl-2.mb-3.mb-lg-0
                   img(src="@/assets/curso/tema1/img04.svg", class="img-fluid cita-decorada__imagen-flotante-3")
                 .col-12.col-lg-9.col-xl-10.cita-decorada__texto.mb-4.mb-lg-0.p-4
-                  p.mb-0 <b>Ejemplo:</b> en una caja de cartón, el código de barras debe colocarse en una de sus caras laterales visibles para facilitar el escaneo durante la recepción y el despacho de mercancías.
+                  .d-flex.align-items-start
+                    i.fas.fa-circle-check.icon-check-custom.me-2.mt-1.txt-dark
+                    p.mb-0 <b>Ejemplo:</b> en una caja de cartón, el código de barras debe colocarse en una de sus caras laterales visibles para facilitar el escaneo durante la recepción y el despacho de mercancías.
 
 
         .col-lg-10.mb-4
@@ -342,7 +355,7 @@
         .row.justify-content-center.align-items-center.mb-3
           .col-lg-8.order-lg-1.order-2
             .row.bg-color-7.align-items-center.justify-content-center.br-15.p-4
-              .col-md-6.col-lg-5.mb-3.mb-lg-0.order-2.order-md-2.order-lg-1
+              .col-md-8.col-lg-5.mb-3.mb-lg-0.order-2.order-md-2.order-lg-1
                 figure
                   img(src="@/assets/curso/tema1/img28.png", data-aos="fade-right")
               .col-lg-7.order-1.order-md-1.order-lg-2.p-4.p-lg-3
