@@ -235,29 +235,28 @@
       .col-lg-8.order-1.order-lg-1.col-md-12.mb-4.mb-lg-0
         TabsA.color-acento-botones
           .tarjeta.color-acento-botones--borde.p-4(titulo="Identificación única del producto")
-            p.mb-0 Asigna un código exclusivo a cada producto o unidad logística, permitiendo su identificación, diferenciación y trazabilidad durante los procesos de almacenamiento, transporte y despacho.
+            p.p-2.mb-0 Asigna un código exclusivo a cada producto o unidad logística, permitiendo su identificación, diferenciación y trazabilidad durante los procesos de almacenamiento, transporte y despacho.
 
           .tarjeta.color-acento-botones--borde.p-4(titulo="Lectura rápida y precisa")
-            p.mb-0 Permite capturar información mediante lectores ópticos en pocos segundos, agilizando las operaciones y garantizando un reconocimiento confiable de los datos registrados.
+            p.p-2.mb-0 Permite capturar información mediante lectores ópticos en pocos segundos, agilizando las operaciones y garantizando un reconocimiento confiable de los datos registrados.
 
           .tarjeta.color-acento-botones--borde.p-4(titulo="Reducción de errores en el registro")
-            p.mb-0 Minimiza errores asociados a la digitación manual, mejorando la exactitud en el registro, seguimiento y control de la información logística.
+            p.p-2.mb-0 Minimiza errores asociados a la digitación manual, mejorando la exactitud en el registro, seguimiento y control de la información logística.
 
           .tarjeta.color-acento-botones--borde.p-4(titulo="Compatibilidad con sistemas de información")
-            p.mb-0 Se integra con sistemas de gestión logística, inventarios y facturación, facilitando el intercambio automático de información entre diferentes plataformas tecnológicas.
+            p.p-2.mb-0 Se integra con sistemas de gestión logística, inventarios y facturación, facilitando el intercambio automático de información entre diferentes plataformas tecnológicas.
 
           .tarjeta.color-acento-botones--borde.p-4(titulo="Facilidad de impresión")
-            p.mb-0 Puede imprimirse sobre diversos materiales y tamaños sin perder funcionalidad, siempre que se mantengan los estándares de calidad y legibilidad establecidos.
+            p.p-2.mb-0 Puede imprimirse sobre diversos materiales y tamaños sin perder funcionalidad, siempre que se mantengan los estándares de calidad y legibilidad establecidos.
 
           .tarjeta.color-acento-botones--borde.p-4(titulo="Agilidad en el control de inventarios")
-            p.mb-0 Facilita la actualización automática de existencias, optimiza la ubicación de productos y mejora el seguimiento de entradas, salidas y movimientos de mercancías.
+            p.p-2.mb-0 Facilita la actualización automática de existencias, optimiza la ubicación de productos y mejora el seguimiento de entradas, salidas y movimientos de mercancías.
                             
     
 
     p.mb-5 Estas características contribuyen al fortalecimiento de la trazabilidad y al mejoramiento de la productividad logística.
-
-
-
+    
+    
     .row.justify-content-center.mb-3
       .col-12.col-lg-8.mb-0.col-md-12
         .cita-decorada
@@ -275,11 +274,19 @@
     #t_1_6.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 1.6 Recomendaciones para su aplicación
 
-    .row.mb-5.justify-content-center.align-items-center
-      .col-lg-4.col-md-12.order-1.order-lg-1.mb-4.mb-lg-0
+    .bloque-texto-g.bloque-texto-g--inverso.bg-color-31.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/tema1/img30.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
         p.mb-3 Son criterios técnicos que determinan el lugar adecuado para la impresión o aplicación del código de barras sobre el producto, empaque o unidad logística. Una ubicación correcta garantiza una correcta lectura, mejora la trazabilidad y facilita las actividades de recepción, almacenamiento, verificación de registros y control de despachos.
         p.mb-0 Entre los principales parámetros tenemos:
-
+    
+    .row.mb-5.justify-content-center.align-items-center
+      .col-lg-4.col-md-12.order-1.order-lg-1.mb-4.mb-lg-0
+        figure
+          img(src="@/assets/curso/tema1/img31.png", alt="" data-aos="zoom-in")
+    
       .col-lg-8.order-2.order-lg-2.col-md-12.mb-0
         .bg-fondo-2.p-4
           SlyderF(columnas="col-lg-12 col-xl-12 col-md-12 col-sm-12 p-lg-3 p-2 br-15",style="background-color: #ffffff; border-radius: 15px;")

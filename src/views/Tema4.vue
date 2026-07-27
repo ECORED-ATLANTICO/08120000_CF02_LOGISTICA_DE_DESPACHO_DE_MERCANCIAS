@@ -9,12 +9,12 @@
 
     .bg-full-width.bg-fondo-1
 
-      .row.mb-4.justify-content-center.align-items-center
-        .col-lg-4.col-md-10.mb-4.mb-lg-0
-          figure
-            img(src="@/assets/curso/tema4/img01.png", data-aos="zoom-in")
-        .col-lg-8
-          p.mb-0(data-aos="fade-right") Los equipos para operaciones logísticas son herramientas y dispositivos utilizados para facilitar la movilización, almacenamiento, cargue, descargue y transporte interno de mercancías. Su correcta selección, operación y mantenimiento contribuyen a mejorar la productividad, reducir riesgos laborales y garantizar la integridad de los productos durante las diferentes etapas de la cadena logística.
+      img(src="@/assets/curso/tema4/img18.png", alt="Imagen decorativa")
+      
+      .row.justify-content-center.align-items-center.z-2.mb-5
+        .col-lg-10(data-aos="")
+          p.banner-text.bg-color-3-degrade
+            | Los equipos para operaciones logísticas son herramientas y dispositivos utilizados para facilitar la movilización, almacenamiento, cargue, descargue y transporte interno de mercancías. Su correcta selección, operación y mantenimiento contribuyen a mejorar la productividad, reducir riesgos laborales y garantizar la integridad de los productos durante las diferentes etapas de la cadena logística.
 
 
 
@@ -101,6 +101,7 @@
           img.titulo-con-imagen__imagen(src="@/assets/curso/img-subtitulo.svg")
           h3.titulo-con-imagen__texto.text-white Equipos para transporte horizontal
 
+    p.mb-4 Se utilizan para movilizar mercancías entre diferentes áreas sin modificar significativamente su altura. Entre los cuales se encuentran:
 
     .row.justify-content-center.mb-5
       .col-xl-4.col-lg-6.col-md-12.col-12.mb-4.mb-xl-0
@@ -179,7 +180,7 @@
         p.mb-0 Por otro lado, seleccionar el equipo adecuado para una operación logística es una decisión que influye directamente en la eficiencia, la seguridad y el correcto manejo de las mercancías. La elección debe responder a las necesidades específicas de cada proceso, donde los aspectos que se deben tener en cuenta son los siguientes:
 
       .col-lg-5.col-md-12.order-2.order-lg-3.mb-4.mb-lg-0
-        .bg-color-1.p-3.br-15.mb-0
+        .bg-color-54.p-3.br-15.mb-0
           ul.lista-ul--color.mb-0.ms-lg-2.ms-1
             li.mb-1 
               i.fas.fa-circle-check
@@ -311,7 +312,7 @@
 
     
     .row.mb-3.justify-content-center.align-items-center
-      .col-lg-8
+      .col-lg-10
         .cajon.bg-color-c1.p-4.mb-0
           p.mb-0 El mantenimiento periódico disminuye fallas mecánicas y contribuye a la continuidad de las operaciones logísticas.
 

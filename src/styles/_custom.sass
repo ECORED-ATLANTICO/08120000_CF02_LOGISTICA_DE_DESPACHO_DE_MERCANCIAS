@@ -176,6 +176,9 @@ figcaption
 .bg-color-97
   background-color: #BBD6FC
 
+.bg-color-54
+  background-color: #F2F8FE
+
 .bg-color-12
   background-color: #E2E7F7
 
@@ -197,7 +200,7 @@ figcaption
     padding-right: 3rem
 
 .bg-fondo-1
-  background-image: url("../assets/curso/tema1/img02.png") !important
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 12%, rgba(255, 255, 255, 0) 88%, rgba(255, 255, 255, 1) 100%), url("../assets/curso/tema1/img02.png") !important
   background-position: center
   background-size: cover
 
@@ -215,7 +218,7 @@ figcaption
   background-size: 100% 100%
 
 .bg-fondo-4
-  background-image: url("../assets/curso/tema1/img13.png") !important
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 12%, rgba(255, 255, 255, 0) 88%, rgba(255, 255, 255, 1) 100%), url("../assets/curso/tema1/img13.png") !important
   background-position: center
   background-size: cover
 
@@ -226,7 +229,7 @@ figcaption
   border-radius: 15px
 
 .bg-fondo-6
-  // background-image: url("../assets/curso/tema1/bg04.png") !important
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 12%, rgba(255, 255, 255, 0) 88%, rgba(255, 255, 255, 1) 100%), url("../assets/curso/tema2/bg07.png") !important
   background-position: center
   background-size: cover
 
@@ -733,9 +736,10 @@ a, button, div
   background-color: #C5CFF0
 
 .tarjeta.color-acento-botones--borde
-  background-color: #FFE6D9
+  // background-color: #FFE6D9
+  background-image: url("../assets/curso/tema1/bg04.png") !important
   color: #000
-  border: solid 4px #FFE6D9 !important
+  border: solid 1px transparent !important
 
 .tabs-a.color-acento-botones .tabs-a__tab__selected:before
   background-color: #FE8849 !important
@@ -801,7 +805,7 @@ a, button, div
 .titulo-con-imagen__fondo
   background-color: #283F65
   border-radius: 5px 5px 5px 5px
-  padding: 16px 25px 16px 20px
+  padding: 10px 25px 10px 20px
   display: inline-flex
   align-items: center
   margin-left: -11px
@@ -809,7 +813,7 @@ a, button, div
 .titulo-con-imagen__imagen
   position: absolute
   left: 4px
-  width: 100px
+  width: 90px
 .titulo-con-imagen__texto
   margin: 0
   padding-left: 95px
@@ -1220,6 +1224,9 @@ a, button, div
     line-height: 1.6
     font-size: 1rem
     font-family: system-ui, sans-serif
+    margin-left: -25px
+    @media (max-width: $bp-max-xl)
+      margin-left: 0px
 
 .border-15px-izq
   border-radius: 15px 0 0 15px
@@ -1273,8 +1280,8 @@ a, button, div
 
 .tabla-a.tb-custom
   thead
-    border-color: #DFF5FB
-    background-color: #DFF5FB
+    border-color: #7BB5F2 !important
+    background-color: #F2F8FE !important
     th
       color: $color-sistema-texto !important
   tbody

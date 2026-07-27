@@ -131,28 +131,34 @@
         img.mb-2.d-flex.d-lg-none(data-aos="fade-up", src="@/assets/curso/tema2/img04.png", alt="La figura muestra un recibo de mercancía con los campos necesarios para el registro de la información.")
         figcaption Nota. SENA, (2026).
 
-    .row.justify-content-center.mb-3
-      .col-12.col-lg-8.mb-0.col-md-12
-        .cita-decorada
-          blockquote.cita-decorada__caja.cita-decorada__caja--fondo-4.p-3.bg-color-2.br-15
-            .row.justify-content-center.align-items-center
-              .col-12.col-lg-3.mb-3.mb-lg-0
-                img(src="@/assets/curso/tema1/img04.svg", class="img-fluid cita-decorada__imagen-flotante-3")
-              .col-12.col-lg-9.cita-decorada__texto.mb-4.mb-lg-0.p-4
-                .d-flex.align-items-start
-                  i.fas.fa-circle-check.icon-check-custom.me-2.mt-1.txt-dark
-                  p.mb-0 <b>Ejemplo:</b> un registro diligenciado de manera completa permite identificar rápidamente el recorrido de una mercancía dentro de la organización. 
-
-
-    .bg-full-width.bg-fondo-1
+    .bg-full-width.bg-fondo-6
+      .row.justify-content-center.mb-3
+        .col-12.col-lg-8.mb-0.col-md-12
+          .cita-decorada
+            blockquote.cita-decorada__caja.cita-decorada__caja--fondo-4.p-3.bg-color-2.br-15
+              .row.justify-content-center.align-items-center
+                .col-12.col-lg-3.mb-3.mb-lg-0
+                  img(src="@/assets/curso/tema1/img04.svg", class="img-fluid cita-decorada__imagen-flotante-3")
+                .col-12.col-lg-9.cita-decorada__texto.mb-4.mb-lg-0.p-4
+                  .d-flex.align-items-start
+                    i.fas.fa-circle-check.icon-check-custom.me-2.mt-1.txt-dark
+                    p.mb-0 <b>Ejemplo:</b> un registro diligenciado de manera completa permite identificar rápidamente el recorrido de una mercancía dentro de la organización. 
 
       separador
       
       #t_2_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
         h2 2.4 Técnicas de diligenciamiento
 
-      p.mb-3 El diligenciamiento adecuado de los registros garantiza la calidad de la información y facilita el seguimiento de las operaciones logísticas. Su correcta implementación contribuye al control de las operaciones, reduce errores administrativos y facilita el seguimiento de las mercancías durante las diferentes etapas de la gestión logística.
-      p.mb-5 Algunas recomendaciones para su elaboración son:
+
+      img(src="@/assets/curso/tema2/img07.png", alt="Imagen decorativa")
+      
+      .row.justify-content-center.align-items-center.z-2.mb-5
+        .col-lg-10(data-aos="")
+          p.banner-text.bg-color-3-degrade
+            | El diligenciamiento adecuado de los registros garantiza la calidad de la información y facilita el seguimiento de las operaciones logísticas. Su correcta implementación contribuye al control de las operaciones, reduce errores administrativos y facilita el seguimiento de las mercancías durante las diferentes etapas de la gestión logística.
+            br
+            br
+            | Algunas recomendaciones para su elaboración son:
 
       .row.mb-5.justify-content-center.align-items-center
         .col-lg-12.col-md-12.mb-0.mb-lg-0
@@ -220,7 +226,7 @@
     #t_2_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 2.5 Guía de ruta
                 
-    .bloque-texto-g.bloque-texto-g--inverso.bg-color-1.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.bg-color-1.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema2/img05.png')})`}"
       )
@@ -228,10 +234,10 @@
         p.mb-0 La guía de ruta es un documento utilizado para planificar, controlar y hacer seguimiento al recorrido de las mercancías durante su transporte y entrega. Contiene información relacionada con el origen, destino, productos transportados, responsable de la entrega y observaciones de la operación. Este documento facilita la coordinación entre las áreas de almacenamiento, transporte y distribución, permitiendo verificar el cumplimiento de las entregas y mantener la trazabilidad de la mercancía. Generalmente una guía de ruta incluye:
 
     .row.mb-5.justify-content-center.align-items-center
-      .col-lg-4.col-md-8.order-2.order-lg-1
+      .col-lg-4.col-md-8.order-2.order-lg-2
         figure
           img(src="@/assets/curso/tema2/img06.png", data-aos="zoom-in")
-      .col-lg-8.order-1.order-lg-2.col-md-12.mb-4.mb-lg-0
+      .col-lg-8.order-1.order-lg-1.col-md-12.mb-4.mb-lg-0
         TabsA.color-acento-botones
           .tarjeta.color-acento-botones--borde.p-4(titulo="Fecha de la operación")
             p.mb-0 Registra la fecha en que se realiza el despacho de la mercancía, permitiendo controlar el inicio de la operación y facilitar el seguimiento del proceso logístico.
@@ -252,16 +258,25 @@
       .row.mb-5.justify-content-center.align-items-center
         .col-lg-4.col-xl-4.col-md-6.col-sm-6.p-3.mb-4.mb-lg-0
           .tarjeta.bg-color-8.br-15.shadow-sm.p-4.h-100
+            .row.justify-content-center.mb-3
+              .col-8
+                img(src='@/assets/curso/tema2/img09.svg' alt='', style="max-width: 120px;").mx-auto
             .bg-color-c1.p-2.mb-3
               h4.text-center.mb-0 Ruta asignada
             p.text-center Indica el recorrido previsto desde el origen hasta el destino, facilitando la planificación del transporte y el cumplimiento de los tiempos de entrega.
         .col-lg-4.col-xl-4.col-md-6.col-sm-6.p-3.mb-4.mb-lg-0
           .tarjeta.bg-color-8.br-15.shadow-sm.p-4.h-100
+            .row.justify-content-center.mb-3
+              .col-8
+                img(src='@/assets/curso/tema2/img10.svg' alt='', style="max-width: 120px;" ).mx-auto
             .bg-color-c1.p-2.mb-3
               h4.text-center.mb-0 Responsable del transporte
             p.text-center Identifica al conductor o empresa transportadora encargada del traslado de la mercancía, fortaleciendo el control y la trazabilidad de la operación.
         .col-lg-4.col-xl-4.col-md-6.col-sm-6.p-3.mb-4.mb-lg-0
           .tarjeta.bg-color-8.br-15.shadow-sm.p-4.h-100
+            .row.justify-content-center.mb-3
+              .col-8
+                img(src='@/assets/curso/tema2/img11.svg' alt='', style="max-width: 120px;" ).mx-auto
             .bg-color-c1.p-2.mb-3
               h4.text-center.mb-0 Firma de recibido
             p.text-center Evidencia la recepción de la mercancía mediante la firma de la persona autorizada, confirmando que la entrega fue realizada conforme a lo establecido.
