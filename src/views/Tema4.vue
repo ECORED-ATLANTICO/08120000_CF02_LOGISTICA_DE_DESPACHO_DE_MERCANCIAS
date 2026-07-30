@@ -110,7 +110,7 @@
             figure
               img(src="@/assets/curso/tema4/img03.png", alt="Transpaletas manuales y eléctricas")
           .crd_hover_txt--body
-            h4.mb-3 Transpaletas manuales y eléctricas
+            h4.mb-3.text-center Transpaletas manuales y eléctricas
             p.mb-0 Permiten trasladar estibas y mercancías sobre superficies planas entre las áreas de recepción, almacenamiento, preparación de pedidos y despacho, agilizando el movimiento interno y reduciendo el esfuerzo físico del operario.
     
       .col-xl-4.col-lg-6.col-md-12.col-12.mb-4.mb-xl-0
@@ -119,7 +119,7 @@
             figure
               img(src="@/assets/curso/tema4/img04.png", alt="Carretillas")
           .crd_hover_txt--body
-            h4.mb-3 Carretillas
+            h4.mb-3.text-center Carretillas
             p.mb-0 Facilitan el transporte manual de cajas, paquetes y otros productos de menor volumen o peso moderado dentro de la bodega, optimizando los desplazamientos en recorridos cortos y espacios reducidos.
     
       .col-xl-4.col-lg-6.col-md-12.col-12.mb-4.mb-xl-0
@@ -128,7 +128,7 @@
             figure
               img(src="@/assets/curso/tema4/img05.png", alt="Bandas transportadoras")
           .crd_hover_txt--body
-            h4.mb-3 Bandas transportadoras
+            h4.mb-3.text-center Bandas transportadoras
             p.mb-0 Transportan mercancías de forma continua entre diferentes procesos o áreas de la operación logística, mejorando el flujo de materiales, reduciendo la manipulación manual y aumentando la eficiencia operativa.
 
     //- Subitutlo
@@ -147,7 +147,7 @@
         figure
           img(src="@/assets/curso/tema4/img06.png", data-aos="zoom-in")
       .col-lg-8.order-2.order-lg-1.col-md-12.mb-4.mb-lg-0
-        SlyderF(columnas="col-lg-6 col-xl-6 col-md-12 col-sm-12 p-3")
+        SlyderF(columnas="col-lg-12 col-xl-6 col-md-12 col-sm-12 p-3")
           .tarjeta.bg-color-8.br-15.shadow-sm.p-4.h-100
             .bg-color-c1.p-2.mb-3
               h4.text-center.mb-0 Montacargas
@@ -240,10 +240,10 @@
 
       p.mb-4 Sus principales usos incluyen:
       .row.mb-5.justify-content-center.align-items-center
-        .col-lg-4.col-md-8.order-2.order-lg-2
+        .col-lg-7.col-xl-4.col-md-8.order-2.order-lg-2.mb-0.mb-0
           figure
             img(src="@/assets/curso/tema4/img09.png", data-aos="zoom-in")
-        .col-lg-8.order-1.order-lg-1.col-md-12.mb-4.mb-lg-0
+        .col-lg-12.col-xl-8.order-1.order-lg-1.col-md-12.mb-4.mb-lg-3.mb-xl-0
           TabsA.color-acento-botones
             .tarjeta.color-acento-botones--borde.p-4(titulo="Recepción de mercancías")
               p.mb-0 Facilita la descarga, verificación y traslado inicial de las mercancías desde el vehículo hasta el área de recepción, garantizando un manejo seguro, ordenado y conforme con los procedimientos establecidos.
@@ -309,31 +309,33 @@
             .tarjeta.p-4.h-100
               h4 Reporte inmediato
               p.mb-0 Comunica inmediatamente cualquier falla, daño o condición insegura para facilitar su reparación y evitar riesgos durante las operaciones logísticas.
-
     
-    .row.mb-3.justify-content-center.align-items-center
-      .col-lg-10
-        .cajon.bg-color-c1.p-4.mb-0
-          p.mb-0 El mantenimiento periódico disminuye fallas mecánicas y contribuye a la continuidad de las operaciones logísticas.
+    .bg-full-width.bg-fondo-4
+
+      
+      .row.mb-3.justify-content-center.align-items-center
+        .col-lg-10
+          .cajon.bg-color-c1.p-4.mb-0
+            p.mb-0 El mantenimiento periódico disminuye fallas mecánicas y contribuye a la continuidad de las operaciones logísticas.
 
 
-    separador
-    
-    #t_4_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 4.5 Procedimiento de manejo
+      separador
+      
+      #t_4_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+        h2 4.5 Procedimiento de manejo
 
-    p.mb-3 El manejo de los equipos logísticos debe realizarse siguiendo procedimientos establecidos por la organización y las recomendaciones del fabricante, garantizando la seguridad de los trabajadores y la protección de las mercancías. <br><br>Un procedimiento básico comprende las siguientes etapas:
+      p.mb-3 El manejo de los equipos logísticos debe realizarse siguiendo procedimientos establecidos por la organización y las recomendaciones del fabricante, garantizando la seguridad de los trabajadores y la protección de las mercancías. <br><br>Un procedimiento básico comprende las siguientes etapas:
 
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
-        .titulo-sexto.color-acento-contenido.mb-4
-          h5
-            b Figura 5.
-          span Cuidado y manejo de equipos para operaciones logísticas
-        img.mb-2.d-lg-flex.d-none(data-aos="fade-up", src="@/assets/curso/tema4/img15.png", alt="La figura muestra de manera circular el cuidado y el manejo de equipos para operaciones logísticas. Presenta recomendaciones para realizar inspecciones previas, utilizar elementos de protección personal, operar los equipos correctamente, desplazarse de forma segura, manipular la carga con estabilidad, asegurar el equipo al finalizar, reportar novedades y conservar los equipos en buen estado. En el centro se observa un operario utilizando una transpaleta eléctrica para movilizar una estiba con mercancía, representando la aplicación de buenas prácticas que favorecen la seguridad y la eficiencia en las operaciones logísticas.")
-        img.mb-2.d-flex.d-lg-none(data-aos="fade-up", src="@/assets/curso/tema4/img16.png", alt="La figura muestra de manera circular el cuidado y el manejo de equipos para operaciones logísticas. Presenta recomendaciones para realizar inspecciones previas, utilizar elementos de protección personal, operar los equipos correctamente, desplazarse de forma segura, manipular la carga con estabilidad, asegurar el equipo al finalizar, reportar novedades y conservar los equipos en buen estado. En el centro se observa un operario utilizando una transpaleta eléctrica para movilizar una estiba con mercancía, representando la aplicación de buenas prácticas que favorecen la seguridad y la eficiencia en las operaciones logísticas.")
-        figcaption Nota. SENA, (2026).
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-12
+          .titulo-sexto.color-acento-contenido.mb-4
+            h5
+              b Figura 5.
+            span Cuidado y manejo de equipos para operaciones logísticas
+          img.mb-2.d-lg-flex.d-none(data-aos="fade-up", src="@/assets/curso/tema4/img15.png", alt="La figura muestra de manera circular el cuidado y el manejo de equipos para operaciones logísticas. Presenta recomendaciones para realizar inspecciones previas, utilizar elementos de protección personal, operar los equipos correctamente, desplazarse de forma segura, manipular la carga con estabilidad, asegurar el equipo al finalizar, reportar novedades y conservar los equipos en buen estado. En el centro se observa un operario utilizando una transpaleta eléctrica para movilizar una estiba con mercancía, representando la aplicación de buenas prácticas que favorecen la seguridad y la eficiencia en las operaciones logísticas.")
+          img.mb-2.d-flex.d-lg-none(data-aos="fade-up", src="@/assets/curso/tema4/img16.png", alt="La figura muestra de manera circular el cuidado y el manejo de equipos para operaciones logísticas. Presenta recomendaciones para realizar inspecciones previas, utilizar elementos de protección personal, operar los equipos correctamente, desplazarse de forma segura, manipular la carga con estabilidad, asegurar el equipo al finalizar, reportar novedades y conservar los equipos en buen estado. En el centro se observa un operario utilizando una transpaleta eléctrica para movilizar una estiba con mercancía, representando la aplicación de buenas prácticas que favorecen la seguridad y la eficiencia en las operaciones logísticas.")
+          figcaption Nota. SENA, (2026).
 
 
     p.mb-5 El cumplimiento de estos procedimientos contribuye a prevenir accidentes, proteger la infraestructura y garantizar la continuidad de las operaciones logísticas.
@@ -364,7 +366,7 @@
                   p.mb-0 A continuación, se invita al aprendiz a ver el siguiente video para fortalecer los conocimientos relacionados con preparación de mercancías para despacho:
                 .col-md-auto.text-center
                   a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=sd837L6UvmQ&t=2109s" target="_blank")
-                    span Ver video
+                    span Ir al video
                     i.fas.fa-play-circle
 
       .col-lg-10.mb-0

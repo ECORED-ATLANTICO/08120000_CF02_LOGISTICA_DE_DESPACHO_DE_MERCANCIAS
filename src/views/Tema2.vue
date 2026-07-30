@@ -62,7 +62,7 @@
             .col-md-10
               .row.justify-content-between.align-items-center
                 .col-md.mb-3.mb-md-0.text-center.text-md-start
-                  h4.mb-2 Formatos de registros logísticos
+                  h4.mb-2 Formatos de registros de mercancía
                   p.mb-0 Lo invitamos a visitar el siguiente enlace en donde puede descargar un ejemplo de formato de recibo y registro de mercancía 
                 .col-md-auto.text-center
                   a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/Anexos/Ejemplo_formato_recibo_registro_mercancia.pdf')" target="_blank")
@@ -251,12 +251,17 @@
           .tarjeta.color-acento-botones--borde.p-4(titulo="Datos del destinatario")
             p.mb-0 Registra la información de la persona o empresa que recibirá la mercancía, asegurando una entrega correcta en el lugar establecido.
 
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Relación de mercancías")
-            p.mb-0 Describe los productos incluidos en el despacho, especificando referencias o características que facilitan su identificación durante el transporte y la entrega.
-
     .bg-full-width.bg-fondo-4
-      .row.mb-5.justify-content-center.align-items-center
-        .col-lg-4.col-xl-4.col-md-6.col-sm-6.p-3.mb-4.mb-lg-0
+      .row.mb-5.justify-content-center
+        .col-lg-6.col-xl-3.col-md-6.col-sm-6.p-3.mb-4.mb-lg-0
+          .tarjeta.bg-color-8.br-15.shadow-sm.p-4.h-100
+            .row.justify-content-center.mb-3
+              .col-8
+                img(src='@/assets/curso/tema2/img08.svg' alt='', style="max-width: 120px;").mx-auto
+            .bg-color-c1.p-2.mb-3
+              h4.text-center.mb-0 Relación de mercancías
+            p.text-center Describe los productos incluidos en el despacho, especificando referencias o características que facilitan su identificación durante el transporte y la entrega.
+        .col-lg-6.col-xl-3.col-md-6.col-sm-6.p-3.mb-4.mb-lg-0
           .tarjeta.bg-color-8.br-15.shadow-sm.p-4.h-100
             .row.justify-content-center.mb-3
               .col-8
@@ -264,7 +269,7 @@
             .bg-color-c1.p-2.mb-3
               h4.text-center.mb-0 Ruta asignada
             p.text-center Indica el recorrido previsto desde el origen hasta el destino, facilitando la planificación del transporte y el cumplimiento de los tiempos de entrega.
-        .col-lg-4.col-xl-4.col-md-6.col-sm-6.p-3.mb-4.mb-lg-0
+        .col-lg-6.col-xl-3.col-md-6.col-sm-6.p-3.mb-4.mb-lg-0
           .tarjeta.bg-color-8.br-15.shadow-sm.p-4.h-100
             .row.justify-content-center.mb-3
               .col-8
@@ -272,7 +277,7 @@
             .bg-color-c1.p-2.mb-3
               h4.text-center.mb-0 Responsable del transporte
             p.text-center Identifica al conductor o empresa transportadora encargada del traslado de la mercancía, fortaleciendo el control y la trazabilidad de la operación.
-        .col-lg-4.col-xl-4.col-md-6.col-sm-6.p-3.mb-4.mb-lg-0
+        .col-lg-6.col-xl-3.col-md-6.col-sm-6.p-3.mb-4.mb-lg-0
           .tarjeta.bg-color-8.br-15.shadow-sm.p-4.h-100
             .row.justify-content-center.mb-3
               .col-8
@@ -295,7 +300,7 @@
                     p.mb-0 A continuación, se invita al aprendiz a ir al siguiente video para fortalecer los conocimientos relacionados con registros logísticos:
                   .col-md-auto.text-center
                     a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=jBJCxb3KRN0" target="_blank")
-                      span Ver video
+                      span Ir al video
                       i.fas.fa-play-circle
 
         .col-lg-10.mb-0

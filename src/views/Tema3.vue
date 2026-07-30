@@ -55,7 +55,7 @@
         figure
           img(src="@/assets/curso/tema3/img03.png", data-aos="zoom-in")
       .col-lg-8.order-1.order-lg-1.col-md-12.mb-4.mb-lg-0
-        SlyderF(columnas="col-lg-6 col-xl-6 col-md-12 col-sm-12 p-3")
+        SlyderF(columnas="col-lg-12 col-xl-6 col-md-12 col-sm-12 p-3")
           .tarjeta.bg-color-8.br-15.shadow-sm.p-4.h-100
             .bg-color-c1.p-2.mb-3
               h4.text-center.mb-0 Señalización adecuada
@@ -389,7 +389,7 @@
                     p.mb-0 A continuación, se invita a ir al siguiente video para fortalecer los conocimientos relacionados con cargue y descargue de mercancías:
                   .col-md-auto.text-center
                     a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=l5djXZcO85Q" target="_blank")
-                      span Ver video
+                      span Ir al video
                       i.fas.fa-play-circle
 
         .col-lg-10.mb-0

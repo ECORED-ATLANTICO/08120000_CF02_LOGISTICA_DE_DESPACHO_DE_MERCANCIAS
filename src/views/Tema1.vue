@@ -140,11 +140,11 @@
           figure
             img(src="@/assets/curso/tema1/img14.png", data-aos="zoom-in")
         .col-lg-8.order-1.order-lg-2.col-md-12.mb-4.mb-lg-0
-          SlyderF(columnas="col-lg-6 col-xl-6 col-md-12 col-sm-12 p-3")
+          SlyderF(columnas="col-lg-12 col-xl-6 col-md-12 col-sm-12 p-3")
             .tarjeta.bg-color-8.br-15.shadow-sm.p-4.h-100
               .row.justify-content-center.mb-3
                 .col-8
-                  img(src='@/assets/curso/tema1/img15.svg' alt='', style="width: 170px; height: 170px; ").mx-auto
+                  img(src='@/assets/curso/tema1/img15.png' alt='', style="width: 170px; height: 170px; ").mx-auto
               
               .bg-color-c1.p-2.mb-3
                 h4.text-center.mb-0 EAN-13
@@ -153,7 +153,7 @@
             .tarjeta.bg-color-8.br-15.shadow-sm.p-4.h-100
               .row.justify-content-center.mb-3
                 .col-8
-                  img(src='@/assets/curso/tema1/img16.svg' alt='', style="width: 170px; height: 170px; ").mx-auto
+                  img(src='@/assets/curso/tema1/img16.png' alt='', style="width: 170px; height: 170px; ").mx-auto
               
               .bg-color-c1.p-2.mb-3
                 h4.text-center.mb-0 UPC
@@ -162,7 +162,7 @@
             .tarjeta.bg-color-8.br-15.shadow-sm.p-4.h-100
               .row.justify-content-center.mb-3
                 .col-8
-                  img(src='@/assets/curso/tema1/img17.svg' alt='', style="width: 170px; height: 170px; ").mx-auto
+                  img(src='@/assets/curso/tema1/img17.png' alt='', style="width: 170px; height: 170px; ").mx-auto
               
               .bg-color-c1.p-2.mb-3
                 h4.text-center.mb-0 Code 39
@@ -171,7 +171,7 @@
             .tarjeta.bg-color-8.br-15.shadow-sm.p-4.h-100
               .row.justify-content-center.mb-3
                 .col-8
-                  img(src='@/assets/curso/tema1/img18.svg' alt='', style="width: 170px; height: 170px; ").mx-auto
+                  img(src='@/assets/curso/tema1/img18.png' alt='', style="width: 170px; height: 170px; ").mx-auto
               
               .bg-color-c1.p-2.mb-3
                 h4.text-center.mb-0 Code 128
@@ -180,7 +180,7 @@
             .tarjeta.bg-color-8.br-15.shadow-sm.p-4.h-100
               .row.justify-content-center.mb-3
                 .col-8
-                  img(src='@/assets/curso/tema1/img19.svg' alt='', style="width: 170px; height: 170px; ").mx-auto
+                  img(src='@/assets/curso/tema1/img19.png' alt='', style="width: 170px; height: 170px; ").mx-auto
               
               .bg-color-c1.p-2.mb-3
                 h4.text-center.mb-0 ITF-14
@@ -189,7 +189,7 @@
             .tarjeta.bg-color-8.br-15.shadow-sm.p-4.h-100
               .row.justify-content-center.mb-3
                 .col-8
-                  img(src='@/assets/curso/tema1/img20.svg' alt='', style="width: 170px; height: 170px; ").mx-auto
+                  img(src='@/assets/curso/tema1/img20.png' alt='', style="width: 170px; height: 170px; ").mx-auto
               
               .bg-color-c1.p-2.mb-3
                 h4.text-center.mb-0 Código QR
@@ -229,10 +229,10 @@
 
 
     .row.mb-5.justify-content-center.align-items-center
-      .col-lg-4.col-md-8.order-2.order-lg-2
+      .col-lg-7.col-xl-4.col-md-8.order-2.order-lg-2.mb-0.mb-lg-0
         figure
           img(src="@/assets/curso/tema1/img23.png", data-aos="zoom-in")
-      .col-lg-8.order-1.order-lg-1.col-md-12.mb-4.mb-lg-0
+      .col-lg-12.col-xl-8.order-1.order-lg-1.col-md-12.mb-4.mb-lg-3.mb-xl-0
         TabsA.color-acento-botones
           .tarjeta.color-acento-botones--borde.p-4(titulo="Identificación única del producto")
             p.p-2.mb-0 Asigna un código exclusivo a cada producto o unidad logística, permitiendo su identificación, diferenciación y trazabilidad durante los procesos de almacenamiento, transporte y despacho.
@@ -343,7 +343,7 @@
                     p.mb-0 Se invita a consultar el siguiente video para fortalecer los conocimientos relacionados con código de barras:
                   .col-md-auto.text-center
                     a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=vJ4CfO8EpAs" target="_blank")
-                      span Ver video
+                      span Ir al video
                       i.fas.fa-play-circle
 
         .col-lg-10.mb-0
