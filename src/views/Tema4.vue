@@ -381,7 +381,7 @@
                   p.mb-0 Se invita al aprendiz a profundizar en protección de transacciones financieras y cumplimiento normativo, a través del siguiente artículo (página 28 – 43):
                 .col-md-auto.text-center
                   a.boton.color-acento-botones.texto-blanco(href="https://tp-digital.cl/wp-content/uploads/lms/recurso/MAQUINAS-Y-EQUIPOS-DE-LOGISTICA.pdf" target="_blank")
-                    span Ver enlace
+                    span Ir al enlace
                     i.fas.fa-link
 
     .container

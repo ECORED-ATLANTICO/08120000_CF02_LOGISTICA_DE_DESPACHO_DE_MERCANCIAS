@@ -120,7 +120,7 @@
                   p.mb-0 Se invita al aprendiz a investigar que es GS1Colombia y su importancia en lo relacionado con los códigos de barras.
                 .col-md-auto.text-center
                   a.boton.color-acento-botones.texto-blanco(href="https://gs1co.org/sobre-gs1/quienes-somos" target="_blank")
-                    span Ver enlace
+                    span Ir al enlace
                     i.fas.fa-link
 
 
@@ -358,7 +358,7 @@
                     p.mb-0 Se invita al aprendiz a profundizar en código de barras, a través del siguiente artículo:
                   .col-md-auto.text-center
                     a.boton.color-acento-botones.texto-blanco(href="https://gs1co.org/sites/default/files/libreria-archivos/guia-de-identificacion-codigos-de-barras-gs1-colombia.pdf" target="_blank")
-                      span Ver enlace
+                      span Ir al enlace
                       i.fas.fa-link
 
       .container

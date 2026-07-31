@@ -405,7 +405,7 @@
 
                   .col-md-auto.text-center
                     a.boton.color-acento-botones.texto-blanco(href="https://www.simur.gov.co/sites/simur.gov.co/files/2021-06-16/basico/Buenas_Practicas_carga_descarga_Bogota__0.pdf" target="_blank")
-                      span Ver enlace
+                      span Ir al enlace
                       i.fas.fa-link
 </template>
 

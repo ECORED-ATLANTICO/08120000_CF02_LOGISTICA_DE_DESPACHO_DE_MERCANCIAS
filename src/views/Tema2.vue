@@ -40,7 +40,7 @@
                     p.mb-0 Lo invitamos a visitar el siguiente enlace en donde puede descargar un ejemplo de formato de recibo y registro de mercancía 
                   .col-md-auto.text-center
                     a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/Anexos/Ejemplo_formato_recibo_registro_mercancia.pdf')" target="_blank")
-                      span Ver enlace
+                      span Ir al enlace
                       i.fas.fa-link
 
     separador
@@ -66,7 +66,7 @@
                   p.mb-0 Lo invitamos a visitar el siguiente enlace en donde puede descargar un ejemplo de formato de recibo y registro de mercancía 
                 .col-md-auto.text-center
                   a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/Anexos/Ejemplo_formato_recibo_registro_mercancia.pdf')" target="_blank")
-                    span Ver enlace
+                    span Ir al enlace
                     i.fas.fa-link
 
         p.mb-0 Cada uno de estos documentos contribuye al control y seguimiento de las operaciones logísticas.
@@ -315,7 +315,7 @@
                     p.mb-0 Se invita al aprendiz a profundizar en lo relacionado a registros logísticos, a través del siguiente artículo (página 195–202)
                   .col-md-auto.text-center
                     a.boton.color-acento-botones.texto-blanco(href="https://www.fesc.edu.co/portal/archivos/e_libros/logistica/gestion_logistica.pdf" target="_blank")
-                      span Ver enlace
+                      span Ir al enlace
                       i.fas.fa-link
 </template>
 
