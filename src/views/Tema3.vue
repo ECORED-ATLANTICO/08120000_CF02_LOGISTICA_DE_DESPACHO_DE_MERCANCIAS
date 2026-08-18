@@ -158,84 +158,84 @@
             p Usar posturas correctas para levantar y mover cargas livianas, evitando lesiones.
             .d-flex.align-items-start
               i.fas.fa-circle-check.icon-check-custom.me-2.mt-1.txt-dark
-              p.mb-0 <b>Ejemplos:</b> Levantando una caja flexionando las rodillas y manteniendo la espalda recta.
+              p.mb-0 <b>Ejemplo:</b> levantar una caja flexionando las rodillas y manteniendo la espalda recta.
           .col-lg-4.col-md-8.mb-0.mb-lg-0.order-2.order-lg-1
             figure
               img(src='@/assets/curso/tema3/img06.png', alt='')
 
-      .p-3.p-md-4(titulo="Utilizar equipos de manipulación.")
+      .p-3.p-md-4(titulo="Utilizar equipos de manipulación")
         .row.justify-content-center.align-items-center
           .col-lg-8.mb-4.mb-lg-0.order-1.order-lg-2
             p Emplear equipos como montacargas o transpaletas para mover cargas pesadas o voluminosas.
             .d-flex.align-items-start
               i.fas.fa-circle-check.icon-check-custom.me-2.mt-1.txt-dark
-              p.mb-0 <b>Ejemplos:</b> Transportar un pallet con un montacargas desde el muelle hasta la zona de almacenamiento.
+              p.mb-0 <b>Ejemplo:</b> transportar un pallet con un montacargas desde el muelle hasta la zona de almacenamiento.
           .col-lg-4.col-md-8.mb-0.mb-lg-0.order-2.order-lg-1
             figure
               img(src='@/assets/curso/tema3/img07.png', alt='')
 
-      .p-3.p-md-4(titulo="Distribuir la carga equitativamente.")
+      .p-3.p-md-4(titulo="Distribuir la carga equitativamente")
         .row.justify-content-center.align-items-center
           .col-lg-8.mb-4.mb-lg-0.order-1.order-lg-2
             p Colocar la mercancía de forma uniforme para mantener la estabilidad durante el transporte.
             .d-flex.align-items-start
               i.fas.fa-circle-check.icon-check-custom.me-2.mt-1.txt-dark
-              p.mb-0 <b>Ejemplos:</b> Ubicar los productos de mayor peso en la parte inferior y distribuirlos de forma uniforme.
+              p.mb-0 <b>Ejemplo:</b> ubicar los productos de mayor peso en la parte inferior y distribuirlos de forma uniforme.
           .col-lg-4.col-md-8.mb-0.mb-lg-0.order-2.order-lg-1
             figure
               img(src='@/assets/curso/tema3/img08.png', alt='')
 
-      .p-3.p-md-4(titulo="Apilar adecuadamente.")
+      .p-3.p-md-4(titulo="Apilar adecuadamente")
         .row.justify-content-center.align-items-center
           .col-lg-8.mb-4.mb-lg-0.order-1.order-lg-2
             p Apilar las mercancías según su resistencia y tamaño para evitar daños o caídas.
             .d-flex.align-items-start
               i.fas.fa-circle-check.icon-check-custom.me-2.mt-1.txt-dark
-              p.mb-0 <b>Ejemplos:</b> Apilar cajas resistentes en la base y las más livianas en la parte superior.
+              p.mb-0 <b>Ejemplo:</b> apilar cajas resistentes en la base y las más livianas en la parte superior.
           .col-lg-4.col-md-8.mb-0.mb-lg-0.order-2.order-lg-1
             figure
               img(src='@/assets/curso/tema3/img09.png', alt='')
 
-      .p-3.p-md-4(titulo="Asegurar la carga.")
+      .p-3.p-md-4(titulo="Asegurar la carga")
         .row.justify-content-center.align-items-center
           .col-lg-8.mb-4.mb-lg-0.order-1.order-lg-2
             p Fijar la mercancía con elementos de sujeción para evitar movimientos durante el transporte.
             .d-flex.align-items-start
               i.fas.fa-circle-check.icon-check-custom.me-2.mt-1.txt-dark
-              p.mb-0 <b>Ejemplos:</b> Fijar un pallet con película stretch antes de cargarlo al vehículo.
+              p.mb-0 <b>Ejemplo:</b> fijar un pallet con película stretch antes de cargarlo al vehículo.
           .col-lg-4.col-md-8.mb-0.mb-lg-0.order-2.order-lg-1
             figure
               img(src='@/assets/curso/tema3/img10.png', alt='')
 
-      .p-3.p-md-4(titulo="Verificar durante la operación.")
+      .p-3.p-md-4(titulo="Verificar durante la operación")
         .row.justify-content-center.align-items-center
           .col-lg-8.mb-4.mb-lg-0.order-1.order-lg-2
             p Revisar el estado de la mercancía, los equipos y las condiciones de seguridad continuamente.
             .d-flex.align-items-start
               i.fas.fa-circle-check.icon-check-custom.me-2.mt-1.txt-dark
-              p.mb-0 <b>Ejemplos:</b> Revisar que los pallets no presenten daños antes de iniciar el descargue.
+              p.mb-0 <b>Ejemplo:</b> revisar que los pallets no presenten daños antes de iniciar el descargue.
           .col-lg-4.col-md-8.mb-0.mb-lg-0.order-2.order-lg-1
             figure
               img(src='@/assets/curso/tema3/img11.png', alt='')
 
-      .p-3.p-md-4(titulo="Descargar ordenadamente y secuencialmente.")
+      .p-3.p-md-4(titulo="Descargar ordenadamente y secuencialmente")
         .row.justify-content-center.align-items-center
           .col-lg-8.mb-4.mb-lg-0.order-1.order-lg-2
             p Retirar la mercancía siguiendo el orden establecido para facilitar la entrega.
             .d-flex.align-items-start
               i.fas.fa-circle-check.icon-check-custom.me-2.mt-1.txt-dark
-              p.mb-0 <b>Ejemplos:</b> Descargar primero los productos destinados al primer punto de entrega.
+              p.mb-0 <b>Ejemplo:</b> descargar primero los productos destinados al primer punto de entrega.
           .col-lg-4.col-md-8.mb-0.mb-lg-0.order-2.order-lg-1
             figure
               img(src='@/assets/curso/tema3/img12.png', alt='')
 
-      .p-3.p-md-4(titulo="Aplicar normas de seguridad.")
+      .p-3.p-md-4(titulo="Aplicar normas de seguridad")
         .row.justify-content-center.align-items-center
           .col-lg-8.mb-4.mb-lg-0.order-1.order-lg-2
             p Usar elementos de protección y cumplir los procedimientos seguros durante toda la operación.
             .d-flex.align-items-start
               i.fas.fa-circle-check.icon-check-custom.me-2.mt-1.txt-dark
-              p.mb-0 <b>Ejemplos:</b> Utilizar casco, chaleco reflectivo y botas de seguridad en la zona de operación.
+              p.mb-0 <b>Ejemplo:</b> utilizar casco, chaleco reflectivo y botas de seguridad en la zona de operación.
           .col-lg-4.col-md-8.mb-0.mb-lg-0.order-2.order-lg-1
             figure
               img(src='@/assets/curso/tema3/img13.png', alt='')
@@ -284,7 +284,7 @@
             div(titulo="Almacenamiento")
               p.ms-1.ms-lg-5 Evalúa las condiciones de ubicación, apilamiento, identificación y conservación de las mercancías dentro de la bodega.
   
-    p.mb-5 La aplicación de estas técnicas disminuye pérdidas económicas y mejora la productividad de las operaciones.
+    p.mb-5 Su aplicación permite prevenir errores y garantizar la calidad del proceso logístico.
 
 
     .row.justify-content-center.mb-3

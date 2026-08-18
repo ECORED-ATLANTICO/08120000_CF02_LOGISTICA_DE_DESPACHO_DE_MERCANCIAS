@@ -139,7 +139,7 @@
           h3.titulo-con-imagen__texto.text-white Equipos para elevación y apilamiento
 
 
-    p.mb-5 Permiten levantar, posicionar y almacenar mercancías en diferentes alturas, optimizando el aprovechamiento del espacio en la bodega y facilitando las operaciones de recepción, almacenamiento, preparación de pedidos y despacho. Los mas utilizados son:
+    p.mb-5 Permiten levantar, posicionar y almacenar mercancías en diferentes alturas, optimizando el aprovechamiento del espacio en la bodega y facilitando las operaciones de recepción, almacenamiento, preparación de pedidos y despacho. Los más utilizados son:
 
 
     .row.mb-5.justify-content-center.align-items-center
@@ -394,7 +394,7 @@
             .col-lg-7.order-1.order-md-1.order-lg-2.p-4.p-lg-3
               p(data-aos="fade-left").mb-4 A continuación, se invita a ir al siguiente podcast: 
               TarjetaAudio.color-acento-contenido.bg-color-white.mb-3(
-                texto="Operaciones seguras de cargue, descargue y manejo de equipos en la logística"
+                texto="Operaciones seguras de cargue, descargue y manejo de equipos en la logística."
                 tiempo
                 :audio="require('@/assets/curso/audio/2.mp3')"
               )

@@ -272,7 +272,7 @@
     separador
     
     #t_1_6.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 1.6 Recomendaciones para su aplicación
+      h2 1.6 Parámetros de ubicación
 
     .bloque-texto-g.bloque-texto-g--inverso.bg-color-31.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
@@ -371,9 +371,9 @@
               .col-lg-7.order-1.order-md-1.order-lg-2.p-4.p-lg-3
                 p(data-aos="fade-left").mb-4 A continuación, se invita a ir al siguiente podcast: 
                 TarjetaAudio.color-acento-contenido.bg-color-white.mb-3(
-                  texto="El código de barras: la identidad de las mercancías en la logística moderna"
+                  texto="El código de barras: la identidad de las mercancías en la logística moderna."
                   tiempo
-                  :audio="require('@/assets/curso/audio/2.mp3')"
+                  :audio="require('@/assets/curso/audio/1.mp3')"
                 )
           .col-lg-4.order-lg-2.order-1.mb-4.mb-lg-0
             figure
