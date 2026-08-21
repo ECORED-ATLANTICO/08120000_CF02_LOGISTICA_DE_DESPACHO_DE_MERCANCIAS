@@ -23,7 +23,7 @@ export default {
         '<b>Objetivo:</b> evaluar la comprensión de los procesos de identificación, registro, cargue, descargue y manejo de equipos en las operaciones logísticas.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
-      titulo_reprobado: 'VUELVA A INTENTARLO.',
+      titulo_reprobado: 'VUELVA A INTENTARLO',
       preguntas: [
         {
           id: 1,

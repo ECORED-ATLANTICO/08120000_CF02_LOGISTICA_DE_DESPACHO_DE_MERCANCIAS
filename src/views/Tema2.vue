@@ -127,8 +127,8 @@
           h5
             b Figura 4.
           span Evidencia de recibo
-        img.mb-2.d-lg-flex.d-none(data-aos="fade-up", src="@/assets/curso/tema2/img03.png", alt="La figura muestra un recibo de mercancía con los campos necesarios para el registro de la información.")
-        img.mb-2.d-flex.d-lg-none(data-aos="fade-up", src="@/assets/curso/tema2/img04.png", alt="La figura muestra un recibo de mercancía con los campos necesarios para el registro de la información.")
+        img.mb-2.d-lg-flex.d-none(data-aos="fade-up", src="@/assets/curso/tema2/img03.png", alt="La figura muestra una guía de envío de la empresa Servientrega utilizada para identificar, transportar, rastrear y entregar un paquete. El documento se encuentra organizado en diferentes secciones que reúnen información general del envío, como los datos del remitente y del destinatario, las características del paquete, los códigos de identificación y seguimiento, los detalles del servicio y los datos relacionados con la entrega. Además, contiene elementos gráficos como códigos de barras, un código QR, logotipos y espacios destinados al registro y validación de la recepción.")
+        img.mb-2.d-flex.d-lg-none(data-aos="fade-up", src="@/assets/curso/tema2/img04.png", alt="La figura muestra una guía de envío de la empresa Servientrega utilizada para identificar, transportar, rastrear y entregar un paquete. El documento se encuentra organizado en diferentes secciones que reúnen información general del envío, como los datos del remitente y del destinatario, las características del paquete, los códigos de identificación y seguimiento, los detalles del servicio y los datos relacionados con la entrega. Además, contiene elementos gráficos como códigos de barras, un código QR, logotipos y espacios destinados al registro y validación de la recepción.")
         figcaption Nota. SENA, (2026).
 
     .bg-full-width.bg-fondo-6

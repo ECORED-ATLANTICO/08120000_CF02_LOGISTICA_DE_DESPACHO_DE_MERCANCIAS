@@ -49,7 +49,7 @@
                 tr
                   td Capacidad de carga
                   td Corresponde al peso máximo que un equipo puede soportar y transportar de forma segura, garantizando un funcionamiento eficiente sin afectar su estabilidad, desempeño o vida útil durante las operaciones logísticas.
-                  td Un transpaleta manual moviliza un pallet de 1.800 kg sin superar su capacidad máxima de carga.
+                  td Un transpaleta manual moviliza un <em>pallet</em> de 1.800 kg sin superar su capacidad máxima de carga.
                 tr
                   td Estabilidad durante la operación
                   td Permite mantener el equilibrio del equipo mientras moviliza mercancías, reduciendo el riesgo de vuelcos, desplazamientos inesperados o caídas de la carga durante las maniobras de transporte y elevación.
@@ -288,27 +288,33 @@
           SlyderA(tipo="b").bg-color-white.p-4.tarjeta
             .tarjeta.p-4.h-100
               h4 Limpieza periódica
-              p.mb-0 Consiste en retirar polvo, residuos y suciedad de los equipos para mantener su correcto funcionamiento, prevenir el desgaste prematuro y facilitar la identificación de posibles daños.
+              p.mb-2 Consiste en retirar polvo, residuos y suciedad de los equipos para mantener su correcto funcionamiento, prevenir el desgaste prematuro y facilitar la identificación de posibles daños.
+              p.mb-0 <b>Ejemplo:</b> Limpiar un transpaleta al finalizar la jornada para eliminar residuos acumulados en las ruedas y el chasis.
 
             .tarjeta.p-4.h-100
               h4 Inspección previa
-              p.mb-0 Verifica el estado general del equipo, identificando posibles daños, fugas o anomalías que puedan afectar la seguridad y el desempeño durante la operación.
+              p.mb-2 Verifica el estado general del equipo, identificando posibles daños, fugas o anomalías que puedan afectar la seguridad y el desempeño durante la operación.
+              p.mb-0 <b>Ejemplo:</b> Revisar el estado de las ruedas, frenos y horquillas de un apilador antes de iniciar la operación.
 
             .tarjeta.p-4.h-100
               h4 Mantenimiento preventivo
-              p.mb-0 Incluye revisiones y ajustes programados para conservar el equipo en condiciones óptimas, disminuir la probabilidad de fallas y prolongar su vida útil.
+              p.mb-2 Incluye revisiones y ajustes programados para conservar el equipo en condiciones óptimas, disminuir la probabilidad de fallas y prolongar su vida útil.
+              p.mb-0 <b>Ejemplo:</b> Realizar el cambio periódico de lubricantes y el ajuste de componentes de una banda transportadora según el plan de mantenimiento.
 
             .tarjeta.p-4.h-100
               h4 Uso adecuado
-              p.mb-0 Utiliza el equipo respetando la capacidad de carga, las instrucciones del fabricante y los procedimientos establecidos para evitar daños y accidentes.
+              p.mb-2 Utiliza el equipo respetando la capacidad de carga, las instrucciones del fabricante y los procedimientos establecidos para evitar daños y accidentes.
+              p.mb-0 <b>Ejemplo:</b> Operar un carro plataforma sin exceder el peso máximo recomendado por el fabricante.
 
             .tarjeta.p-4.h-100
               h4 Almacenamiento adecuado
-              p.mb-0 Mantiene los equipos en lugares seguros, limpios y protegidos de la humedad, el polvo y otros factores que puedan deteriorar sus componentes.
+              p.mb-2 Mantiene los equipos en lugares seguros, limpios y protegidos de la humedad, el polvo y otros factores que puedan deteriorar sus componentes.
+              p.mb-0 <b>Ejemplo:</b> Guardar un transpaleta en un área cubierta y destinada exclusivamente para equipos logísticos.
 
             .tarjeta.p-4.h-100
               h4 Reporte inmediato
-              p.mb-0 Comunica inmediatamente cualquier falla, daño o condición insegura para facilitar su reparación y evitar riesgos durante las operaciones logísticas.
+              p.mb-2 Comunica inmediatamente cualquier falla, daño o condición insegura para facilitar su reparación y evitar riesgos durante las operaciones logísticas.
+              p.mb-0 <b>Ejemplo:</b> Informar al responsable de mantenimiento sobre una rueda desgastada detectada durante la inspección diaria.
     
     .bg-full-width.bg-fondo-4
 

@@ -169,7 +169,7 @@
             p Emplear equipos como montacargas o transpaletas para mover cargas pesadas o voluminosas.
             .d-flex.align-items-start
               i.fas.fa-circle-check.icon-check-custom.me-2.mt-1.txt-dark
-              p.mb-0 <b>Ejemplo:</b> transportar un pallet con un montacargas desde el muelle hasta la zona de almacenamiento.
+              p.mb-0 <b>Ejemplo:</b> transportar un <em>pallet</em> con un montacargas desde el muelle hasta la zona de almacenamiento.
           .col-lg-4.col-md-8.mb-0.mb-lg-0.order-2.order-lg-1
             figure
               img(src='@/assets/curso/tema3/img07.png', alt='')
@@ -202,7 +202,7 @@
             p Fijar la mercancía con elementos de sujeción para evitar movimientos durante el transporte.
             .d-flex.align-items-start
               i.fas.fa-circle-check.icon-check-custom.me-2.mt-1.txt-dark
-              p.mb-0 <b>Ejemplo:</b> fijar un pallet con película stretch antes de cargarlo al vehículo.
+              p.mb-0 <b>Ejemplo:</b> fijar un <em>pallet</em> con película <em>stretch</em> antes de cargarlo al vehículo.
           .col-lg-4.col-md-8.mb-0.mb-lg-0.order-2.order-lg-1
             figure
               img(src='@/assets/curso/tema3/img10.png', alt='')
@@ -213,7 +213,7 @@
             p Revisar el estado de la mercancía, los equipos y las condiciones de seguridad continuamente.
             .d-flex.align-items-start
               i.fas.fa-circle-check.icon-check-custom.me-2.mt-1.txt-dark
-              p.mb-0 <b>Ejemplo:</b> revisar que los pallets no presenten daños antes de iniciar el descargue.
+              p.mb-0 <b>Ejemplo:</b> revisar que los <em>pallets</em> no presenten daños antes de iniciar el descargue.
           .col-lg-4.col-md-8.mb-0.mb-lg-0.order-2.order-lg-1
             figure
               img(src='@/assets/curso/tema3/img11.png', alt='')
@@ -336,7 +336,7 @@
                 tr
                   td Uso de ayudas mecánicas
                   td Emplea equipos como montacargas, transpaletas o bandas transportadoras para movilizar cargas pesadas con mayor seguridad y eficiencia.
-                  td Mover un pallet utilizando un montacargas.
+                  td Mover un <em>pallet</em> utilizando un montacargas.
                 tr
                   td Apilamiento adecuado
                   td Organiza las mercancías respetando su resistencia, estabilidad y capacidad de carga para evitar daños o colapsos durante el almacenamiento y transporte.
@@ -344,7 +344,7 @@
                 tr
                   td Sujeción y aseguramiento
                   td Utiliza elementos de fijación para mantener la estabilidad de la mercancía durante su movilización y evitar desplazamientos o caídas.
-                  td Asegurar un pallet con película stretch y correas de sujeción.
+                  td Asegurar un <em>pallet</em> con película <em>stretch</em> y correas de sujeción.
                 tr
                   td Manipulación con equipos de protección personal
                   td Incorpora el uso de elementos de protección personal para reducir los riesgos durante la manipulación de mercancías y proteger la integridad del trabajador.

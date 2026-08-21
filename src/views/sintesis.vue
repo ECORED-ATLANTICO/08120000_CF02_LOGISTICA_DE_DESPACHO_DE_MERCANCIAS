@@ -7,7 +7,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5.bgs.p-4.brad
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="Esquema de síntesis que resume el componente formativo Verificación de registros y control de despachos, cubriendo código de barras, registros logísticos, cargue y descargue de mercancías y equipos para operaciones logísticas.")
+          img(src="@/assets/curso/sintesis.svg", alt="La estructura jerárquica, muestra el componente formativo Verificación de registros y control de despachos; integrando los principales contenidos relacionados con la identificación mediante códigos de barras, la gestión de registros logísticos, las operaciones de cargue y descargue de mercancías y el uso de equipos para operaciones logísticas. Además, organiza aspectos como conceptos, características, clasificación, técnicas, procedimientos, listas de chequeo, guía de ruta, manipulación de productos y parámetros necesarios para garantizar la trazabilidad, el control y la eficiencia de los procesos logísticos.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

@@ -389,7 +389,7 @@ export default {
       autores: [
         {
           nombre: 'Sergio Quintero Guzmán',
-          cargo: 'Experto temático logística',
+          cargo: 'Experto Temático Logística',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {

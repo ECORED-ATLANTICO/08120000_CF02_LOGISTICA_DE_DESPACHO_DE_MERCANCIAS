@@ -165,7 +165,7 @@
                   img(src='@/assets/curso/tema1/img17.png' alt='', style="width: 170px; height: 170px; ").mx-auto
               
               .bg-color-c1.p-2.mb-3
-                h4.text-center.mb-0 Code 39
+                h4.text-center.mb-0 <em>Code</em> 39
               p.text-center Código alfanumérico que permite representar letras, números y algunos caracteres especiales. Facilita la identificación de activos y documentos. Es común en procesos industriales, manufactura, defensa y control de inventarios.
 
             .tarjeta.bg-color-8.br-15.shadow-sm.p-4.h-100
@@ -174,7 +174,7 @@
                   img(src='@/assets/curso/tema1/img18.png' alt='', style="width: 170px; height: 170px; ").mx-auto
               
               .bg-color-c1.p-2.mb-3
-                h4.text-center.mb-0 Code 128
+                h4.text-center.mb-0 <em>Code</em> 128
               p.text-center Código alfanumérico de alta densidad que almacena gran cantidad de información en poco espacio. Favorece la trazabilidad y el control logístico. Se utiliza ampliamente en transporte, almacenamiento, distribución y mensajería.
 
             .tarjeta.bg-color-8.br-15.shadow-sm.p-4.h-100
