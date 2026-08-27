@@ -27,7 +27,7 @@
         )
         .bloque-texto-g__texto.p-4
           p.mb-3 El código de barras es una representación gráfica de información mediante una serie de barras y espacios de diferentes anchos que pueden ser leídos por dispositivos electrónicos especializados. Cada código identifica de manera única un producto, unidad logística o activo, facilitando su registro y trazabilidad durante todo el proceso logístico.
-
+          <br>
           p.mb-0 Su implementación permite automatizar procesos, optimizar el control de inventarios y agilizar las actividades de recepción y despacho de mercancías.
 
 
@@ -280,6 +280,7 @@
       )
       .bloque-texto-g__texto.p-4
         p.mb-3 Son criterios técnicos que determinan el lugar adecuado para la impresión o aplicación del código de barras sobre el producto, empaque o unidad logística. Una ubicación correcta garantiza una correcta lectura, mejora la trazabilidad y facilita las actividades de recepción, almacenamiento, verificación de registros y control de despachos.
+        <br>
         p.mb-0 Entre los principales parámetros tenemos:
     
     .row.mb-5.justify-content-center.align-items-center
