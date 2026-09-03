@@ -207,7 +207,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/08120000_CF02_DU.zip',
+        download: 'downloads/08120000_CF02_CFA.zip',
       },
       {
         icono: 'fas fa-download',
@@ -409,7 +409,7 @@ export default {
         },
         {
           nombre: 'Álvaro Guillermo Araújo Angarita',
-          cargo: 'Desarrollador <em>full stack</em>',
+          cargo: 'Desarrollador full stack',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
@@ -444,7 +444,7 @@ export default {
         },
         {
           nombre: 'Karine Isabel Ospino Fritz',
-          cargo: 'Validadora y vinculador de recursos educativos digitales',
+          cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],

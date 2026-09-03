@@ -195,7 +195,7 @@ export default {
         {
           id: 6,
           texto:
-            '¿Cuál es una característica que deben cumplir los registros logísticos?',
+            '¿Qué característica  debe cumplir con los registros logísticos?',
           imagen: require('@/assets/actividad/imagen6.png'),
           barajarRespuestas: true,
           opciones: [

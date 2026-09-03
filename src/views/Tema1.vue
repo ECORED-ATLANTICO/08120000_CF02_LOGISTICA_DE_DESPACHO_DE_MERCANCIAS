@@ -370,7 +370,7 @@
                 figure
                   img(src="@/assets/curso/tema1/img28.png", data-aos="fade-right")
               .col-lg-7.order-1.order-md-1.order-lg-2.p-4.p-lg-3
-                p(data-aos="fade-left").mb-4 A continuación, se invita a ir al siguiente podcast: 
+                p(data-aos="fade-left").mb-4 A continuación, se invita a ir al siguiente pódcast: 
                 TarjetaAudio.color-acento-contenido.bg-color-white.mb-3(
                   texto="El código de barras: la identidad de las mercancías en la logística moderna."
                   tiempo
