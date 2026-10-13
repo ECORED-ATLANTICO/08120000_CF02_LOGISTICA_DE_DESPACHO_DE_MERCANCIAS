@@ -169,12 +169,12 @@ export default {
               id: 'a',
               texto:
                 'Llevar el control y trazabilidad de las operaciones logísticas.',
-              esCorrecta: true,
+              esCorrecta: false,
             },
             {
               id: 'b',
               texto: 'Diseñar campañas publicitarias.',
-              esCorrecta: false,
+              esCorrecta: true,
             },
             {
               id: 'c',

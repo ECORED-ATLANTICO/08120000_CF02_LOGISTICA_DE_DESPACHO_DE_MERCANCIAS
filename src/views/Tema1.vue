@@ -50,7 +50,7 @@
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 1.2 Técnicas de interpretación de colores
 
-    img(src="@/assets/curso/tema1/img05.png", alt="Imagen decorativa")
+    img(src="@/assets/curso/tema1/img05.png", alt="")
     
     .row.justify-content-center.align-items-center.z-2.mb-5
       .col-lg-10(data-aos="")
@@ -131,7 +131,7 @@
     
     .bg-full-width.bg-fondo-4
 
-      p.mb-3 Los códigos de barras se clasifican según su estructura, capacidad de almacenamiento y aplicación en los diferentes procesos comerciales, industriales y logísticos. Cada tipo responde a necesidades específicas de identificación y captura de datos, permitiendo optimizar la trazabilidad, el control de inventarios, la gestión documental y la verificación de mercancías despacho.
+      p.mb-3 Los códigos de barras se clasifican según su estructura, capacidad de almacenamiento y aplicación en los diferentes procesos comerciales, industriales y logísticos. Cada tipo responde a necesidades específicas de identificación y captura de datos, permitiendo optimizar la trazabilidad, el control de inventarios, la gestión documental y la verificación de mercancías en despacho.
 
       p.mb-5 Existen diferentes tipos de códigos de barras, entre los más utilizados se encuentran:
 

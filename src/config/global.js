@@ -293,7 +293,7 @@ export default {
     {
       termino: 'Procedimiento de manejo',
       significado:
-        'Secuencia de pasos establecidos para operar correctamente un equipo logístico garantizando la seguridad del personal y de las mercancías.',
+        'Secuencia de pasos establecidos para operar correctamente un equipo logístico, garantizando la seguridad del personal y de las mercancías.',
     },
     {
       termino: 'Puntos de transferencia',

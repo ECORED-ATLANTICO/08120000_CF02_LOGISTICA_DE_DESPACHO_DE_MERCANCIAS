@@ -9,7 +9,7 @@
 
     .bg-full-width.bg-fondo-1
 
-      img(src="@/assets/curso/tema4/img18.png", alt="Imagen decorativa")
+      img(src="@/assets/curso/tema4/img18.png", alt="")
       
       .row.justify-content-center.align-items-center.z-2.mb-5
         .col-lg-10(data-aos="")
@@ -108,7 +108,7 @@
         .crd_hover_txt(data-aos="flip-left").tarjeta
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/tema4/img03.png", alt="Transpaletas manuales y eléctricas")
+              img(src="@/assets/curso/tema4/img03.png", alt="")
           .crd_hover_txt--body
             h4.mb-3.text-center Transpaletas manuales y eléctricas
             p.mb-0 Permiten trasladar estibas y mercancías sobre superficies planas entre las áreas de recepción, almacenamiento, preparación de pedidos y despacho, agilizando el movimiento interno y reduciendo el esfuerzo físico del operario.
@@ -117,7 +117,7 @@
         .crd_hover_txt(data-aos="flip-left").tarjeta
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/tema4/img04.png", alt="Carretillas")
+              img(src="@/assets/curso/tema4/img04.png", alt="")
           .crd_hover_txt--body
             h4.mb-3.text-center Carretillas
             p.mb-0 Facilitan el transporte manual de cajas, paquetes y otros productos de menor volumen o peso moderado dentro de la bodega, optimizando los desplazamientos en recorridos cortos y espacios reducidos.
@@ -126,7 +126,7 @@
         .crd_hover_txt(data-aos="flip-left").tarjeta
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/tema4/img05.png", alt="Bandas transportadoras")
+              img(src="@/assets/curso/tema4/img05.png", alt="")
           .crd_hover_txt--body
             h4.mb-3.text-center Bandas transportadoras
             p.mb-0 Transportan mercancías de forma continua entre diferentes procesos o áreas de la operación logística, mejorando el flujo de materiales, reduciendo la manipulación manual y aumentando la eficiencia operativa.
@@ -231,7 +231,7 @@
       #t_4_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
         h2 4.3 Usos
 
-      img(src="@/assets/curso/tema4/img08.png", alt="Imagen decorativa")
+      img(src="@/assets/curso/tema4/img08.png", alt="")
       
       .row.justify-content-center.align-items-center.z-2.mb-5
         .col-lg-10(data-aos="")

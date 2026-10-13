@@ -9,7 +9,7 @@
     
     .bg-full-width.bg-fondo-1
 
-      img(src="@/assets/curso/tema2/img01.png", alt="Imagen decorativa")
+      img(src="@/assets/curso/tema2/img01.png", alt="")
       
       .row.justify-content-center.align-items-center.z-2.mb-5
         .col-lg-10(data-aos="")
@@ -150,7 +150,7 @@
         h2 2.4 Técnicas de diligenciamiento
 
 
-      img(src="@/assets/curso/tema2/img07.png", alt="Imagen decorativa")
+      img(src="@/assets/curso/tema2/img07.png", alt="")
       
       .row.justify-content-center.align-items-center.z-2.mb-5
         .col-lg-10(data-aos="")
@@ -231,7 +231,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema2/img05.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 La guía de ruta es un documento utilizado para planificar, controlar y hacer seguimiento al recorrido de las mercancías durante su transporte y entrega. Contiene información relacionada con el origen, destino, productos transportados, responsable de la entrega y observaciones de la operación. Este documento facilita la coordinación entre las áreas de almacenamiento, transporte y distribución, permitiendo verificar el cumplimiento de las entregas y mantener la trazabilidad de la mercancía. Generalmente una guía de ruta incluye:
+        p.mb-0 La guía de ruta es un documento utilizado para planificar, controlar y hacer seguimiento al recorrido de las mercancías durante su transporte y entrega. Contiene información relacionada con el origen, destino, productos transportados, responsable de la entrega y observaciones de la operación. Este documento facilita la coordinación entre las áreas de almacenamiento, transporte y distribución, permitiendo verificar el cumplimiento de las entregas y mantener la trazabilidad de la mercancía. Generalmente, una guía de ruta incluye:
 
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-4.col-md-8.order-2.order-lg-2
